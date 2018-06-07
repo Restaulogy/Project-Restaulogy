@@ -1,0 +1,1704 @@
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Tuesday 08th 2013f October 2013 08:09:58 AM
+ I AM AT STEP-1::::::::::::::::Stored each POST value in a NVP string
+::::::::::::::::validate using SSL or not
+:::::::::::::::: header :  POST /cgi-bin/webscr HTTP/1.0
+Host: www.sandbox.paypal.com:443
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 984
+
+Connection: Close
+
+ 
+:::::::::::::::: req 	 :  cmd=_notify-validate&mc_gross=1.55&invoice=136&protection_eligibility=Ineligible&payer_id=98CPMKKL8GH8L&tax=0.00&payment_date=05%3A09%3A54+Oct+08%2C+2013+PDT&payment_status=Completed&charset=windows-1252&first_name=Test&option_selection1=single&option_selection2=1&mc_fee=0.34&notify_version=3.7&custom=81%7Csingle%7C1%7C0%7CCOOKIE%7C0.20&payer_status=verified&business=restaurant_seller%40gmail.com&quantity=1&verify_sign=AiPC9BjkCyDFQXbSkoZcgqH3hpacASSzj9.OXYDEK3EY0OM0JHR7cYNS&payer_email=custom_1308285220_per%40gmail.com&option_name1=Payment_choice&option_name2=Payment_Split_Among&txn_id=05V66618YE478594K&payment_type=instant&last_name=User&receiver_email=restaurant_seller%40gmail.com&payment_fee=0.34&receiver_id=CPD2YZRA4K94Y&txn_type=web_accept&item_name=Restaurent+Order+136&mc_currency=USD&item_number=&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=81%7Csingle%7C1%7C0%7CCOOKIE%7C0.20&payment_gross=1.55&shipping=0.00&ipn_track_id=b5ff8c5440147 
+:::::::::::::::: fp | (errno | errstr = 0 | ) :   
+:::::::::::::::::::: check to see if it returned verified or invalid valide= 
+::::::::::::::::after Buyer Information
+::::::::::::::::after Basic Information
+::::::::::::::::after Cart Items
+::::::::::::::::after Fraud Management Filters
+::::::::::::::::after Mass Payments\n::::::::::::::::after Dispute Notification Variables
+
+ I AM AFTER -fsockPost(,  mc_gross => 1.55 
+ invoice => 136 
+ protection_eligibility => Ineligible 
+ payer_id => 98CPMKKL8GH8L 
+ tax => 0.00 
+ payment_date => 05:09:54 Oct 08, 2013 PDT 
+ payment_status => Completed 
+ charset => windows-1252 
+ first_name => Test 
+ option_selection1 => single 
+ option_selection2 => 1 
+ mc_fee => 0.34 
+ notify_version => 3.7 
+ custom => 81|single|1|0|COOKIE|0.20 
+ payer_status => verified 
+ business => restaurant_seller@gmail.com 
+ quantity => 1 
+ verify_sign => AiPC9BjkCyDFQXbSkoZcgqH3hpacASSzj9.OXYDEK3EY0OM0JHR7cYNS 
+ payer_email => custom_1308285220_per@gmail.com 
+ option_name1 => Payment_choice 
+ option_name2 => Payment_Split_Among 
+ txn_id => 05V66618YE478594K 
+ payment_type => instant 
+ last_name => User 
+ receiver_email => restaurant_seller@gmail.com 
+ payment_fee => 0.34 
+ receiver_id => CPD2YZRA4K94Y 
+ txn_type => web_accept 
+ item_name => Restaurent Order 136 
+ mc_currency => USD 
+ item_number =>  
+ residence_country => US 
+ test_ipn => 1 
+ handling_amount => 0.00 
+ transaction_subject => 81|single|1|0|COOKIE|0.20 
+ payment_gross => 1.55 
+ shipping => 0.00 
+ ipn_track_id => b5ff8c5440147 
+ )
+ I AM AFTER -VERIFIED...
+ invoice=136
+ gross=1.55 
+ item_number= 
+ item_name=Restaurent Order 136 
+ quantity=1 
+ custom=81|single|1|0|COOKIE|0.20 
+ txn_id=05V66618YE478594K 
+ payment_status=Completed
+ i am in invoice =136,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(81,136,1.55,single,0,1)
+ order =136 
+ order_restaurant =
+ 
+ order_info=
+ sess_id=72
+ sess order =,......
+ I am in single.. 
+ 2. I am in single.. 
+ tbl_cust_sess_id=72 order_restaurant=-- orders= ord_pmnt_order= , ord_amnt=0, ord_pmnt_bill_amnt=0 
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Tuesday 08th 2013f October 2013 08:27:56 AM
+ I AM AT STEP-1::::::::::::::::Stored each POST value in a NVP string
+::::::::::::::::validate using SSL or not
+:::::::::::::::: header :  POST /cgi-bin/webscr HTTP/1.0
+Host: www.sandbox.paypal.com:443
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 984
+
+Connection: Close
+
+ 
+:::::::::::::::: req 	 :  cmd=_notify-validate&mc_gross=1.55&invoice=137&protection_eligibility=Ineligible&payer_id=98CPMKKL8GH8L&tax=0.00&payment_date=05%3A27%3A51+Oct+08%2C+2013+PDT&payment_status=Completed&charset=windows-1252&first_name=Test&option_selection1=single&option_selection2=1&mc_fee=0.34&notify_version=3.7&custom=82%7Csingle%7C1%7C0%7CCOOKIE%7C0.20&payer_status=verified&business=restaurant_seller%40gmail.com&quantity=1&verify_sign=AuTqPPUgcdFpGDuW3HJABGaN1Y5AACtsWCnRaOIG6eDc8s7vNOb4mLbq&payer_email=custom_1308285220_per%40gmail.com&option_name1=Payment_choice&option_name2=Payment_Split_Among&txn_id=3W5553574U3040317&payment_type=instant&last_name=User&receiver_email=restaurant_seller%40gmail.com&payment_fee=0.34&receiver_id=CPD2YZRA4K94Y&txn_type=web_accept&item_name=Restaurent+Order+137&mc_currency=USD&item_number=&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=82%7Csingle%7C1%7C0%7CCOOKIE%7C0.20&payment_gross=1.55&shipping=0.00&ipn_track_id=8f3fbe3feff39 
+:::::::::::::::: fp | (errno | errstr = 0 | ) :   
+:::::::::::::::::::: check to see if it returned verified or invalid valide= 
+::::::::::::::::after Buyer Information
+::::::::::::::::after Basic Information
+::::::::::::::::after Cart Items
+::::::::::::::::after Fraud Management Filters
+::::::::::::::::after Mass Payments\n::::::::::::::::after Dispute Notification Variables
+
+ I AM AFTER -fsockPost(,  mc_gross => 1.55 
+ invoice => 137 
+ protection_eligibility => Ineligible 
+ payer_id => 98CPMKKL8GH8L 
+ tax => 0.00 
+ payment_date => 05:27:51 Oct 08, 2013 PDT 
+ payment_status => Completed 
+ charset => windows-1252 
+ first_name => Test 
+ option_selection1 => single 
+ option_selection2 => 1 
+ mc_fee => 0.34 
+ notify_version => 3.7 
+ custom => 82|single|1|0|COOKIE|0.20 
+ payer_status => verified 
+ business => restaurant_seller@gmail.com 
+ quantity => 1 
+ verify_sign => AuTqPPUgcdFpGDuW3HJABGaN1Y5AACtsWCnRaOIG6eDc8s7vNOb4mLbq 
+ payer_email => custom_1308285220_per@gmail.com 
+ option_name1 => Payment_choice 
+ option_name2 => Payment_Split_Among 
+ txn_id => 3W5553574U3040317 
+ payment_type => instant 
+ last_name => User 
+ receiver_email => restaurant_seller@gmail.com 
+ payment_fee => 0.34 
+ receiver_id => CPD2YZRA4K94Y 
+ txn_type => web_accept 
+ item_name => Restaurent Order 137 
+ mc_currency => USD 
+ item_number =>  
+ residence_country => US 
+ test_ipn => 1 
+ handling_amount => 0.00 
+ transaction_subject => 82|single|1|0|COOKIE|0.20 
+ payment_gross => 1.55 
+ shipping => 0.00 
+ ipn_track_id => 8f3fbe3feff39 
+ )
+ I AM AFTER -VERIFIED...
+ invoice=137
+ gross=1.55 
+ item_number= 
+ item_name=Restaurent Order 137 
+ quantity=1 
+ custom=82|single|1|0|COOKIE|0.20 
+ txn_id=3W5553574U3040317 
+ payment_status=Completed
+ i am in invoice =137,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(82,137,1.55,single,0,1)
+ order =137 
+ order_restaurant =1
+ 
+ order_info=
+ sess_id=74
+ sess order =,......
+ I am in single.. 
+ 2. I am in single.. 
+ tbl_cust_sess_id=74 order_restaurant=1-- orders=Array ord_pmnt_order= 137, ord_amnt=1.55, ord_pmnt_bill_amnt=1.55 
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Wednesday 30th 2013f October 2013 11:25:25 PM
+ I AM AT STEP-1::::::::::::::::Stored each POST value in a NVP string
+::::::::::::::::validate using SSL or not
+:::::::::::::::: header :  POST /cgi-bin/webscr HTTP/1.0
+Host: www.sandbox.paypal.com:443
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 996
+
+Connection: Close
+
+ 
+:::::::::::::::: req 	 :  cmd=_notify-validate&mc_gross=4.97&invoice=142&protection_eligibility=Ineligible&payer_id=98CPMKKL8GH8L&tax=0.00&payment_date=20%3A25%3A23+Oct+30%2C+2013+PDT&payment_status=Completed&charset=windows-1252&first_name=Test&option_selection1=individual&option_selection2=1&mc_fee=0.44&notify_version=3.7&custom=88%7Cindividual%7C1%7C0%7CCOOKIE%7C0.24&payer_status=verified&business=restaurant_seller%40gmail.com&quantity=1&verify_sign=AFcWxV21C7fd0v3bYYYRCpSSRl31AXcL1PmsVbuDpy1wtQsvjbL.-943&payer_email=custom_1308285220_per%40gmail.com&option_name1=Payment_choice&option_name2=Payment_Split_Among&txn_id=1K247469KX525241F&payment_type=instant&last_name=User&receiver_email=restaurant_seller%40gmail.com&payment_fee=0.44&receiver_id=CPD2YZRA4K94Y&txn_type=web_accept&item_name=Restaurent+Order+142&mc_currency=USD&item_number=&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=88%7Cindividual%7C1%7C0%7CCOOKIE%7C0.24&payment_gross=4.97&shipping=0.00&ipn_track_id=92200c3213a54 
+:::::::::::::::: fp | (errno | errstr = 0 | ) :   
+:::::::::::::::::::: check to see if it returned verified or invalid valide= 
+::::::::::::::::after Buyer Information
+::::::::::::::::after Basic Information
+::::::::::::::::after Cart Items
+::::::::::::::::after Fraud Management Filters
+::::::::::::::::after Mass Payments\n::::::::::::::::after Dispute Notification Variables
+
+ I AM AFTER -fsockPost(,  mc_gross => 4.97 
+ invoice => 142 
+ protection_eligibility => Ineligible 
+ payer_id => 98CPMKKL8GH8L 
+ tax => 0.00 
+ payment_date => 20:25:23 Oct 30, 2013 PDT 
+ payment_status => Completed 
+ charset => windows-1252 
+ first_name => Test 
+ option_selection1 => individual 
+ option_selection2 => 1 
+ mc_fee => 0.44 
+ notify_version => 3.7 
+ custom => 88|individual|1|0|COOKIE|0.24 
+ payer_status => verified 
+ business => restaurant_seller@gmail.com 
+ quantity => 1 
+ verify_sign => AFcWxV21C7fd0v3bYYYRCpSSRl31AXcL1PmsVbuDpy1wtQsvjbL.-943 
+ payer_email => custom_1308285220_per@gmail.com 
+ option_name1 => Payment_choice 
+ option_name2 => Payment_Split_Among 
+ txn_id => 1K247469KX525241F 
+ payment_type => instant 
+ last_name => User 
+ receiver_email => restaurant_seller@gmail.com 
+ payment_fee => 0.44 
+ receiver_id => CPD2YZRA4K94Y 
+ txn_type => web_accept 
+ item_name => Restaurent Order 142 
+ mc_currency => USD 
+ item_number =>  
+ residence_country => US 
+ test_ipn => 1 
+ handling_amount => 0.00 
+ transaction_subject => 88|individual|1|0|COOKIE|0.24 
+ payment_gross => 4.97 
+ shipping => 0.00 
+ ipn_track_id => 92200c3213a54 
+ )
+ I AM AFTER -VERIFIED...
+ invoice=142
+ gross=4.97 
+ item_number= 
+ item_name=Restaurent Order 142 
+ quantity=1 
+ custom=88|individual|1|0|COOKIE|0.24 
+ txn_id=1K247469KX525241F 
+ payment_status=Completed
+ i am in invoice =142,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(88,142,4.97,individual,0,1)
+ order =142 
+ order_restaurant =1
+ 
+ order_info=
+ sess_id=0
+ sess order =,......
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =145,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(91,145,2.59,single,0,1)
+ order_info=
+ sess_id=93
+ sess order =,......
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =146,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(6,146,3.60,single,0,1)
+ order_info=
+ sess_id=94
+ sess order =,......
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =147,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(93,147,6.47,single,0,1)
+ order_info=
+ sess_id=95
+ sess order =,......
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Thursday 07th 2013f November 2013 10:50:12 PM
+ I AM AT STEP-1::::::::::::::::Stored each POST value in a NVP string
+::::::::::::::::validate using SSL or not
+:::::::::::::::: header :  POST /cgi-bin/webscr HTTP/1.0
+Host: www.sandbox.paypal.com:443
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 998
+
+Connection: Close
+
+ 
+:::::::::::::::: req 	 :  cmd=_notify-validate&mc_gross=11.52&invoice=148&protection_eligibility=Ineligible&payer_id=98CPMKKL8GH8L&tax=0.00&payment_date=19%3A49%3A59+Nov+07%2C+2013+PST&payment_status=Completed&charset=windows-1252&first_name=Test&option_selection1=individual&option_selection2=1&mc_fee=0.63&notify_version=3.7&custom=94%7Cindividual%7C1%7C0%7CCOOKIE%7C0.55&payer_status=verified&business=restaurant_seller%40gmail.com&quantity=1&verify_sign=ACUe-E7Hjxmeel8FjYAtjnx-yjHAAiGjkBpuNGJwPXH2YXIlNR5gaWjX&payer_email=custom_1308285220_per%40gmail.com&option_name1=Payment_choice&option_name2=Payment_Split_Among&txn_id=2E184202BY0131250&payment_type=instant&last_name=User&receiver_email=restaurant_seller%40gmail.com&payment_fee=0.63&receiver_id=CPD2YZRA4K94Y&txn_type=web_accept&item_name=Restaurent+Order+148&mc_currency=USD&item_number=&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=94%7Cindividual%7C1%7C0%7CCOOKIE%7C0.55&payment_gross=11.52&shipping=0.00&ipn_track_id=319836411a835 
+:::::::::::::::: fp | (errno | errstr = 0 | ) :   
+:::::::::::::::::::: check to see if it returned verified or invalid valide= 
+::::::::::::::::after Buyer Information
+::::::::::::::::after Basic Information
+::::::::::::::::after Cart Items
+::::::::::::::::after Fraud Management Filters
+::::::::::::::::after Mass Payments\n::::::::::::::::after Dispute Notification Variables
+
+ I AM AFTER -fsockPost(,  mc_gross => 11.52 
+ invoice => 148 
+ protection_eligibility => Ineligible 
+ payer_id => 98CPMKKL8GH8L 
+ tax => 0.00 
+ payment_date => 19:49:59 Nov 07, 2013 PST 
+ payment_status => Completed 
+ charset => windows-1252 
+ first_name => Test 
+ option_selection1 => individual 
+ option_selection2 => 1 
+ mc_fee => 0.63 
+ notify_version => 3.7 
+ custom => 94|individual|1|0|COOKIE|0.55 
+ payer_status => verified 
+ business => restaurant_seller@gmail.com 
+ quantity => 1 
+ verify_sign => ACUe-E7Hjxmeel8FjYAtjnx-yjHAAiGjkBpuNGJwPXH2YXIlNR5gaWjX 
+ payer_email => custom_1308285220_per@gmail.com 
+ option_name1 => Payment_choice 
+ option_name2 => Payment_Split_Among 
+ txn_id => 2E184202BY0131250 
+ payment_type => instant 
+ last_name => User 
+ receiver_email => restaurant_seller@gmail.com 
+ payment_fee => 0.63 
+ receiver_id => CPD2YZRA4K94Y 
+ txn_type => web_accept 
+ item_name => Restaurent Order 148 
+ mc_currency => USD 
+ item_number =>  
+ residence_country => US 
+ test_ipn => 1 
+ handling_amount => 0.00 
+ transaction_subject => 94|individual|1|0|COOKIE|0.55 
+ payment_gross => 11.52 
+ shipping => 0.00 
+ ipn_track_id => 319836411a835 
+ )
+ I AM AFTER -VERIFIED...
+ invoice=148
+ gross=11.52 
+ item_number= 
+ item_name=Restaurent Order 148 
+ quantity=1 
+ custom=94|individual|1|0|COOKIE|0.55 
+ txn_id=2E184202BY0131250 
+ payment_status=Completed
+ i am in invoice =148,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(94,148,11.52,individual,0,1)
+ order =148 
+ order_restaurant =1
+ 
+ order_info=
+ sess_id=96
+ sess order =,......
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Friday 08th 2013f November 2013 01:42:58 AM
+ I AM AT STEP-1::::::::::::::::Stored each POST value in a NVP string
+::::::::::::::::validate using SSL or not
+:::::::::::::::: header :  POST /cgi-bin/webscr HTTP/1.0
+Host: www.sandbox.paypal.com:443
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 990
+
+Connection: Close
+
+ 
+:::::::::::::::: req 	 :  cmd=_notify-validate&mc_gross=-11.52&invoice=148&protection_eligibility=Ineligible&payer_id=98CPMKKL8GH8L&payment_date=22%3A42%3A47+Nov+07%2C+2013+PST&payment_status=Refunded&charset=windows-1252&first_name=Test&option_selection1=individual&option_selection2=1&mc_fee=-0.33&notify_version=3.7&reason_code=refund&custom=94%7Cindividual%7C1%7C0%7CCOOKIE%7C0.55&business=restaurant_seller%40gmail.com&verify_sign=AdB90qUSqkrAQGtkBQWo3XZK5Xr5ARRHLzOs3Xcr7Kbaz0VrhKS.Ti8g&payer_email=custom_1308285220_per%40gmail.com&option_name1=Payment_choice&option_name2=Payment_Split_Among&parent_txn_id=2E184202BY0131250&txn_id=81285450X1034473S&payment_type=instant&last_name=User&receiver_email=restaurant_seller%40gmail.com&payment_fee=-0.33&receiver_id=CPD2YZRA4K94Y&item_name=Restaurent+Order+148&mc_currency=USD&item_number=&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=94%7Cindividual%7C1%7C0%7CCOOKIE%7C0.55&payment_gross=-11.52&shipping=0.00&ipn_track_id=5c5093ccba39b 
+:::::::::::::::: fp | (errno | errstr = 0 | ) :   
+:::::::::::::::::::: check to see if it returned verified or invalid valide= 
+::::::::::::::::after Buyer Information
+::::::::::::::::after Basic Information
+::::::::::::::::after Cart Items
+::::::::::::::::after Fraud Management Filters
+::::::::::::::::after Mass Payments\n::::::::::::::::after Dispute Notification Variables
+
+ I AM AFTER -fsockPost(,  mc_gross => -11.52 
+ invoice => 148 
+ protection_eligibility => Ineligible 
+ payer_id => 98CPMKKL8GH8L 
+ payment_date => 22:42:47 Nov 07, 2013 PST 
+ payment_status => Refunded 
+ charset => windows-1252 
+ first_name => Test 
+ option_selection1 => individual 
+ option_selection2 => 1 
+ mc_fee => -0.33 
+ notify_version => 3.7 
+ reason_code => refund 
+ custom => 94|individual|1|0|COOKIE|0.55 
+ business => restaurant_seller@gmail.com 
+ verify_sign => AdB90qUSqkrAQGtkBQWo3XZK5Xr5ARRHLzOs3Xcr7Kbaz0VrhKS.Ti8g 
+ payer_email => custom_1308285220_per@gmail.com 
+ option_name1 => Payment_choice 
+ option_name2 => Payment_Split_Among 
+ parent_txn_id => 2E184202BY0131250 
+ txn_id => 81285450X1034473S 
+ payment_type => instant 
+ last_name => User 
+ receiver_email => restaurant_seller@gmail.com 
+ payment_fee => -0.33 
+ receiver_id => CPD2YZRA4K94Y 
+ item_name => Restaurent Order 148 
+ mc_currency => USD 
+ item_number =>  
+ residence_country => US 
+ test_ipn => 1 
+ handling_amount => 0.00 
+ transaction_subject => 94|individual|1|0|COOKIE|0.55 
+ payment_gross => -11.52 
+ shipping => 0.00 
+ ipn_track_id => 5c5093ccba39b 
+ )
+ I AM AFTER -VERIFIED...
+ invoice=148
+ gross=-11.52 
+ item_number= 
+ item_name=Restaurent Order 148 
+ quantity= 
+ custom=94|individual|1|0|COOKIE|0.55 
+ txn_id=81285450X1034473S 
+ payment_status=Refunded::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Friday 08th 2013f November 2013 03:11:12 AM
+ I AM AT STEP-1::::::::::::::::Stored each POST value in a NVP string
+::::::::::::::::validate using SSL or not
+:::::::::::::::: header :  POST /cgi-bin/webscr HTTP/1.0
+Host: www.sandbox.paypal.com:443
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 988
+
+Connection: Close
+
+ 
+:::::::::::::::: req 	 :  cmd=_notify-validate&mc_gross=-2.00&invoice=142&protection_eligibility=Ineligible&payer_id=98CPMKKL8GH8L&payment_date=00%3A10%3A59+Nov+08%2C+2013+PST&payment_status=Refunded&charset=windows-1252&first_name=Test&option_selection1=individual&option_selection2=1&mc_fee=-0.05&notify_version=3.7&reason_code=refund&custom=88%7Cindividual%7C1%7C0%7CCOOKIE%7C0.24&business=restaurant_seller%40gmail.com&verify_sign=AN8ZjNaBJZOxWc10tQuP-azDNdlrAoqjqFQ-T82KhQyBQu5qxA-sFxkX&payer_email=custom_1308285220_per%40gmail.com&option_name1=Payment_choice&option_name2=Payment_Split_Among&parent_txn_id=1K247469KX525241F&txn_id=846756531M450551D&payment_type=instant&last_name=User&receiver_email=restaurant_seller%40gmail.com&payment_fee=-0.05&receiver_id=CPD2YZRA4K94Y&item_name=Restaurent+Order+142&mc_currency=USD&item_number=&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=88%7Cindividual%7C1%7C0%7CCOOKIE%7C0.24&payment_gross=-2.00&shipping=0.00&ipn_track_id=88beee843a74e 
+:::::::::::::::: fp | (errno | errstr = 0 | ) :   
+:::::::::::::::::::: check to see if it returned verified or invalid valide= 
+::::::::::::::::after Buyer Information
+::::::::::::::::after Basic Information
+::::::::::::::::after Cart Items
+::::::::::::::::after Fraud Management Filters
+::::::::::::::::after Mass Payments\n::::::::::::::::after Dispute Notification Variables
+
+ I AM AFTER -fsockPost(,  mc_gross => -2.00 
+ invoice => 142 
+ protection_eligibility => Ineligible 
+ payer_id => 98CPMKKL8GH8L 
+ payment_date => 00:10:59 Nov 08, 2013 PST 
+ payment_status => Refunded 
+ charset => windows-1252 
+ first_name => Test 
+ option_selection1 => individual 
+ option_selection2 => 1 
+ mc_fee => -0.05 
+ notify_version => 3.7 
+ reason_code => refund 
+ custom => 88|individual|1|0|COOKIE|0.24 
+ business => restaurant_seller@gmail.com 
+ verify_sign => AN8ZjNaBJZOxWc10tQuP-azDNdlrAoqjqFQ-T82KhQyBQu5qxA-sFxkX 
+ payer_email => custom_1308285220_per@gmail.com 
+ option_name1 => Payment_choice 
+ option_name2 => Payment_Split_Among 
+ parent_txn_id => 1K247469KX525241F 
+ txn_id => 846756531M450551D 
+ payment_type => instant 
+ last_name => User 
+ receiver_email => restaurant_seller@gmail.com 
+ payment_fee => -0.05 
+ receiver_id => CPD2YZRA4K94Y 
+ item_name => Restaurent Order 142 
+ mc_currency => USD 
+ item_number =>  
+ residence_country => US 
+ test_ipn => 1 
+ handling_amount => 0.00 
+ transaction_subject => 88|individual|1|0|COOKIE|0.24 
+ payment_gross => -2.00 
+ shipping => 0.00 
+ ipn_track_id => 88beee843a74e 
+ )
+ I AM AFTER -VERIFIED...
+ invoice=142
+ gross=-2.00 
+ item_number= 
+ item_name=Restaurent Order 142 
+ quantity= 
+ custom=88|individual|1|0|COOKIE|0.24 
+ txn_id=846756531M450551D 
+ payment_status=Refunded
+ i am in invoice =266,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,266,7.59,individual,0,1)
+ order_info=
+ sess_id=0
+ sess order =,......
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =264,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,264,21.32,single,0,1)
+ order =264 
+ order_restaurant =1
+ 
+ order_info=
+ sess_id=395
+ sess order =,......
+ I am in single.. 
+ 2. I am in single.. 
+ tbl_cust_sess_id=395 order_restaurant=1-- orders=Array ord_pmnt_order= 264,265, ord_amnt=21.32, ord_pmnt_bill_amnt=21.32 
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =267,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,267,7.43,individual,0,1)
+ order =267 
+ order_restaurant =1
+ 
+ order_info=
+ sess_id=396
+ sess order =,......
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =269,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,269,9.80,split,0,2)
+ order =269 
+ order_restaurant =1
+ 
+ order_info=
+ sess_id=397
+ sess order =,......
+ in else.. 
+ 3.tbl_cust_sess_id=397 order_restaurant=1-- orders=Array ord_pmnt_order= 268,269, ord_amnt=19.61, ord_pmnt_bill_amnt=9.805 
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =268,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(93,268,9.80,SPLIT,64,2)
+ order =268 
+ order_restaurant =1
+ 
+ order_info=
+ sess_id=397
+ sess order =,......
+ Transaction Is Sucessfull......
+ i am in invoice =270,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(78,270,2.52,single,0,1)
+ order =270 
+ order_restaurant =1
+ 
+ order_info=
+ sess_id=398
+ sess order =,......
+ I am in single.. 
+ 2. I am in single.. 
+ tbl_cust_sess_id=398 order_restaurant=1-- orders=Array ord_pmnt_order= 270, ord_amnt=2.52, ord_pmnt_bill_amnt=2.52 
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =272,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,272,4.46,split,0,2)
+ order =272 
+ order_restaurant =1
+ 
+ order_info=
+ sess_id=400
+ sess order =,......
+ in else.. 
+ 3.tbl_cust_sess_id=400 order_restaurant=1-- orders=Array ord_pmnt_order= 271,272, ord_amnt=8.93, ord_pmnt_bill_amnt=4.465 
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =272,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(83,272,4.46,SPLIT,66,2)
+ order =272 
+ order_restaurant =1
+ 
+ order_info=
+ sess_id=400
+ sess order =,......
+ Transaction Is Sucessfull......
+ i am in invoice =274,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(97,274,10.69,individual,0,1)
+ order =274 
+ order_restaurant =1
+ 
+ order_info=
+ sess_id=0
+ sess order =,......
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =275,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(83,275,1.35,individual,0,1)
+ order =275 
+ order_restaurant =1
+ 
+ order_info=
+ sess_id=401
+ sess order =,......
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =273,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,273,5.06,INDIVIDUAL,0,1)
+ order =273 
+ order_restaurant =1
+ 
+ order_info=
+ sess_id=401
+ sess order =,......
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =276,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,276,1.13,INDIVIDUAL,0,1)
+ order =276 
+ order_restaurant =1
+ 
+ order_info=
+ sess_id=401
+ sess order =,......
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =277,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,277,4.50,individual,0,1)
+ order =277 
+ order_restaurant =1
+ 
+ order_info=
+ sess_id=402
+ sess order =,......
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =279,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,279,8.89,individual,0,1)
+ order =279 
+ order_restaurant =1
+ 
+ order_info=
+ sess_id=403
+ sess order =,......
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =280,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,280,12.38,individual,0,1)
+ order =280 
+ order_restaurant =1
+ 
+ order_info=
+ sess_id=404
+ sess order =,......
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =281,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(16,281,4.73,individual,0,1)
+ order =281 
+ order_restaurant =1
+ 
+ order_info=
+ sess_id=0
+ sess order =,......
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =283,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(83,283,5.57,individual,0,1)
+ order =283 
+ order_restaurant =1
+ 
+ order_info=
+ sess_id=0
+ sess order =,......
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =284,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(83,284,29.59,individual,0,1)
+ order =284 
+ order_restaurant =1
+ 
+ order_info=
+ sess_id=0
+ sess order =,......
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =289,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,289,1.35,individual,0,1)
+ order =289 
+ order_restaurant =1
+ 
+ order_info=
+ sess_id=408
+ sess order =,......
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =290,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,290,4.22,individual,0,1)
+ order =290 
+ order_restaurant =1
+ 
+ order_info=
+ sess_id=409
+ sess order =,......
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =294,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,294,1.55,individual,0,1)
+ order =294 
+ order_restaurant =1
+ 
+ order_info=
+ sess_id=410
+ sess order =,......
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =288,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,288,10.40,single,0,1)
+ order =288 
+ order_restaurant =1
+ 
+ order_info=
+ sess_id=407
+ sess order =,......
+ I am in single.. 
+ 2. I am in single.. 
+ tbl_cust_sess_id=407 order_restaurant=1-- orders=Array ord_pmnt_order= 287,288, ord_amnt=10.4, ord_pmnt_bill_amnt=10.4 
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =294,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,294,5.38,single,0,1)
+ order =294 
+ order_restaurant =1
+ 
+ order_info=
+ sess_id=410
+ sess order =,......
+ I am in single.. 
+ 2. I am in single.. 
+ tbl_cust_sess_id=410 order_restaurant=1-- orders=Array ord_pmnt_order= 292,293,294, ord_amnt=5.38, ord_pmnt_bill_amnt=5.38 
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =295,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(107,295,3.72,single,0,1)
+ order =295 
+ order_restaurant =1
+ 
+ order_info=
+ sess_id=411
+ sess order =,......
+ I am in single.. 
+ 2. I am in single.. 
+ tbl_cust_sess_id=411 order_restaurant=1-- orders=Array ord_pmnt_order= 295, ord_amnt=3.72, ord_pmnt_bill_amnt=3.72 
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =298,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(114,298,3.72,single,0,1)
+ order =298 
+ order_restaurant =1
+ 
+ order_info=
+ sess_id=414
+ sess order =,......
+ I am in single.. 
+ 2. I am in single.. 
+ tbl_cust_sess_id=414 order_restaurant=1-- orders=Array ord_pmnt_order= 298, ord_amnt=3.72, ord_pmnt_bill_amnt=3.72 
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =299,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(115,299,8.72,individual,0,1)
+ order =299 
+ order_restaurant =1
+ 
+ order_info=
+ sess_id=415
+ sess order =,......
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =300,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(115,300,10.47,single,0,1)
+ order =300 
+ order_restaurant =1
+ 
+ order_info=
+ sess_id=416
+ sess order =,......
+ I am in single.. 
+ 2. I am in single.. 
+ tbl_cust_sess_id=416 order_restaurant=1-- orders=Array ord_pmnt_order= 300, ord_amnt=10.47, ord_pmnt_bill_amnt=10.47 
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =302,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,302,13.08,single,0,1)
+ order =302 
+ order_restaurant =1
+ 
+ order_info=
+ sess_id=418
+ sess order =,......
+ I am in single.. 
+ 2. I am in single.. 
+ tbl_cust_sess_id=418 order_restaurant=1-- orders=Array ord_pmnt_order= 302, ord_amnt=13.08, ord_pmnt_bill_amnt=13.08 
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =304,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,304,1.68,single,0,1)
+ order =304 
+ order_restaurant =1
+ 
+ I am in single.. 
+ 2. I am in single.. 
+ tbl_cust_sess_id=419 order_restaurant=1-- orders=Array ord_pmnt_order= 304, ord_amnt=1.28, ord_pmnt_bill_amnt=1.28 
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =301,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,301,8.44,single,0,1)
+ order =301 
+ order_restaurant =1
+ 
+ I am in single.. 
+ 2. I am in single.. 
+ tbl_cust_sess_id=417 order_restaurant=1-- orders=Array ord_pmnt_order= 301,303, ord_amnt=8.44, ord_pmnt_bill_amnt=8.44 
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =305,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,305,14.85,individual,0,1)
+ order =305 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =306,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,306,14.23,individual,0,1)
+ order =306 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =307,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,307,6.98,individual,0,1)
+ order =307 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =310,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,310,11.36,single,0,1)
+ order =310 
+ order_restaurant =1
+ 
+ I am in single.. 
+ 2. I am in single.. 
+ tbl_cust_sess_id=424 order_restaurant=1-- orders=Array ord_pmnt_order= 308,309,310, ord_amnt=11.36, ord_pmnt_bill_amnt=11.36 
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =314,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,314,13.39,single,0,1)
+ order =314 
+ order_restaurant =1
+ 
+ I am in single.. 
+ 2. I am in single.. 
+ tbl_cust_sess_id=425 order_restaurant=1-- orders=Array ord_pmnt_order= 314, ord_amnt=13.39, ord_pmnt_bill_amnt=13.39 
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =318,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,318,7.03,single,0,1)
+ order =318 
+ order_restaurant =1
+ 
+ I am in single.. 
+ 2. I am in single.. 
+ tbl_cust_sess_id=426 order_restaurant=1-- orders=Array ord_pmnt_order= 317,318, ord_amnt=7.03, ord_pmnt_bill_amnt=7.03 
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =319,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,319,2.25,single,0,1)
+ order =319 
+ order_restaurant =1
+ 
+ I am in single.. 
+ 2. I am in single.. 
+ tbl_cust_sess_id=428 order_restaurant=1-- orders=Array ord_pmnt_order= 319, ord_amnt=2.25, ord_pmnt_bill_amnt=2.25 
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =322,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,322,54.17,single,0,1)
+ order =322 
+ order_restaurant =1
+ 
+ I am in single.. 
+ 2. I am in single.. 
+ tbl_cust_sess_id=429 order_restaurant=1-- orders=Array ord_pmnt_order= 320,321,322, ord_amnt=54.17, ord_pmnt_bill_amnt=54.17 
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =324,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,324,25.32,single,0,1)
+ order =324 
+ order_restaurant =1
+ 
+ I am in single.. 
+ 2. I am in single.. 
+ tbl_cust_sess_id=433 order_restaurant=1-- orders=Array ord_pmnt_order= 324,325, ord_amnt=25.32, ord_pmnt_bill_amnt=25.32 
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =327,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,327,4.50,individual,0,1)
+ order =327 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =326,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,326,5.06,individual,0,1)
+ order =326 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =328,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,328,10.49,single,0,1)
+ order =328 
+ order_restaurant =1
+ 
+ I am in single.. 
+ 2. I am in single.. 
+ tbl_cust_sess_id=435 order_restaurant=1-- orders=Array ord_pmnt_order= 328, ord_amnt=10.49, ord_pmnt_bill_amnt=10.49 
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =331,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,331,4.16,single,0,1)
+ order =331 
+ order_restaurant =1
+ 
+ I am in single.. 
+ 2. I am in single.. 
+ tbl_cust_sess_id=438 order_restaurant=1-- orders=Array ord_pmnt_order= 331, ord_amnt=4.16, ord_pmnt_bill_amnt=4.16 
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =330,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,330,5.06,single,0,1)
+ order =330 
+ order_restaurant =1
+ 
+ I am in single.. 
+ 2. I am in single.. 
+ tbl_cust_sess_id=437 order_restaurant=1-- orders=Array ord_pmnt_order= 330, ord_amnt=5.06, ord_pmnt_bill_amnt=5.06 
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =332,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,332,1.35,individual,0,1)
+ order =332 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =333,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,333,2.25,individual,0,1)
+ order =333 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =332,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,332,3.60,split,0,1)
+ order =332 
+ order_restaurant =1
+ 
+ in else.. 
+ 3.tbl_cust_sess_id=439 order_restaurant=1-- orders=Array ord_pmnt_order= 332,333, ord_amnt=3.6, ord_pmnt_bill_amnt=3.6 
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =333,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,333,3.60,single,0,1)
+ order =333 
+ order_restaurant =1
+ 
+ I am in single.. 
+ 2. I am in single.. 
+ tbl_cust_sess_id=439 order_restaurant=1-- orders=Array ord_pmnt_order= 332,333, ord_amnt=3.6, ord_pmnt_bill_amnt=3.6 
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =334,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,334,5.06,individual,0,1)
+ order =334 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =335,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,335,6.75,INDIVIDUAL,0,1)
+ order =335 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =336,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,336,12.15,split,0,2)
+ order =336 
+ order_restaurant =1
+ 
+ in else.. 
+ 3.tbl_cust_sess_id=442 order_restaurant=1-- orders=Array ord_pmnt_order= 336,337,338, ord_amnt=24.3, ord_pmnt_bill_amnt=12.15 
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =337,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,337,12.15,SPLIT,109,2)
+ order =337 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......
+ i am in invoice =337,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,337,12.15,SPLIT,109,2)
+ order =337 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......
+ i am in invoice =336,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,336,12.15,SPLIT,109,2)
+ order =336 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......
+ i am in invoice =336,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,336,12.15,SPLIT,109,2)
+ order =336 
+ order_restaurant =1
+ 
+ i am in invoice =336,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,336,12.15,SPLIT,109,2)
+ order =336 
+ order_restaurant =1
+ 
+ i am in invoice =336,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,336,12.15,SPLIT,109,2)
+ order =336 
+ order_restaurant =1
+ 
+ i am in invoice =336,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,336,12.15,SPLIT,109,2)
+ order =336 
+ order_restaurant =1
+ 
+ i am in invoice =336,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,336,12.15,SPLIT,109,2)
+ order =336 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......
+ i am in invoice =336,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,336,12.15,SPLIT,109,2)
+ order =336 
+ order_restaurant =1
+ 
+ i am in invoice =336,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,336,12.15,SPLIT,109,2)
+ order =336 
+ order_restaurant =1
+ 
+ i am in invoice =336,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,336,12.15,SPLIT,109,2)
+ order =336 
+ order_restaurant =1
+ 
+ i am in invoice =336,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,336,12.15,SPLIT,109,2)
+ order =336 
+ order_restaurant =1
+ 
+ i am in invoice =336,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,336,12.15,SPLIT,109,2)
+ order =336 
+ order_restaurant =1
+ 
+ i am in invoice =336,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,336,12.15,SPLIT,109,2)
+ order =336 
+ order_restaurant =1
+ 
+ i am in invoice =336,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,336,12.15,SPLIT,109,2)
+ order =336 
+ order_restaurant =1
+ 
+ i am in invoice =336,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,336,12.15,SPLIT,109,2)
+ order =336 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......
+ i am in invoice =340,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,340,2.61,individual,0,1)
+ order =340 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =341,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,341,1.35,INDIVIDUAL,0,1)
+ order =341 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =343,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(148,343,68.22,split,0,3)
+ order =343 
+ order_restaurant =1
+ 
+ in else.. 
+ 3.tbl_cust_sess_id=445 order_restaurant=1-- orders=Array ord_pmnt_order= 343,344,345, ord_amnt=34.1, ord_pmnt_bill_amnt=11.366666666667 
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =343,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(148,343,68.22,split,0,3)
+ order =343 
+ order_restaurant =1
+ 
+ in else.. 
+ 3.tbl_cust_sess_id=445 order_restaurant=1-- orders=Array ord_pmnt_order= 343,344,345, ord_amnt=34.1, ord_pmnt_bill_amnt=11.366666666667 
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =346,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,346,11.37,SPLIT,113,3)
+ order =346 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......
+ i am in invoice =347,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(151,347,26.34,split,0,3)
+ order =347 
+ order_restaurant =1
+ 
+ in else.. 
+ 3.tbl_cust_sess_id=446 order_restaurant=1-- orders=Array ord_pmnt_order= 347,348,349, ord_amnt=13.17, ord_pmnt_bill_amnt=4.39 
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =348,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(152,348,4.39,SPLIT,114,3)
+ order =348 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......
+ i am in invoice =351,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(154,351,28.96,split,0,4)
+ order =351 
+ order_restaurant =1
+ 
+ in else.. 
+ 3.tbl_cust_sess_id=447 order_restaurant=1-- orders=Array ord_pmnt_order= 350,351,352,353, ord_amnt=14.46, ord_pmnt_bill_amnt=3.615 
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =351,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,351,7.24,SPLIT,115,4)
+ order =351 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......
+ i am in invoice =354,......
+ i am in invoice =354,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,354,3.63,split,0,2)
+ order =354 
+ order_restaurant =1
+ 
+ in else.. 
+ 3.tbl_cust_sess_id=448 order_restaurant=1-- orders=Array ord_pmnt_order= 354,355, ord_amnt=7.26, ord_pmnt_bill_amnt=3.63 
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =354,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,354,3.63,SPLIT,116,2)
+ order =354 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......
+ i am in invoice =356,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,356,7.20,split,0,1)
+ order =356 
+ order_restaurant =1
+ 
+ i am in invoice =356,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,356,7.20,split,0,1)
+ order =356 
+ order_restaurant =1
+ 
+ i am in invoice =356,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,356,7.20,split,0,1)
+ order =356 
+ order_restaurant =1
+ 
+ in else.. 
+ 3.tbl_cust_sess_id=449 order_restaurant=1-- orders=Array ord_pmnt_order= 356, ord_amnt=7.2, ord_pmnt_bill_amnt=7.2 
+ 
+ i am in invoice =356,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,356,7.20,split,0,1)
+ order =356 
+ order_restaurant =1
+ 
+ in else.. 
+ 3.tbl_cust_sess_id=449 order_restaurant=1-- orders=Array ord_pmnt_order= 356, ord_amnt=7.2, ord_pmnt_bill_amnt=7.2 
+ 
+ i am in invoice =356,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,356,7.20,split,0,1)
+ order =356 
+ order_restaurant =1
+ 
+ in else.. 
+ 3.tbl_cust_sess_id=449 order_restaurant=1-- orders=Array ord_pmnt_order= 356, ord_amnt=7.2, ord_pmnt_bill_amnt=7.2 
+ 
+ i am in invoice =356,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,356,7.20,split,0,1)
+ order =356 
+ order_restaurant =1
+ 
+ in else.. 
+ 3.tbl_cust_sess_id=449 order_restaurant=1-- orders=Array ord_pmnt_order= 356, ord_amnt=7.2, ord_pmnt_bill_amnt=7.2 
+ 
+ i am in invoice =356,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,356,7.20,split,0,1)
+ order =356 
+ order_restaurant =1
+ 
+ in else.. 
+ 3.tbl_cust_sess_id=449 order_restaurant=1-- orders=Array ord_pmnt_order= 356, ord_amnt=7.2, ord_pmnt_bill_amnt=7.2 
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =360,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,360,23.34,single,0,1)
+ order =360 
+ order_restaurant =1
+ 
+ I am in single.. 
+ 2. I am in single.. 
+ tbl_cust_sess_id=450 order_restaurant=1-- orders=Array ord_pmnt_order= 357,358,359,360, ord_amnt=23.34, ord_pmnt_bill_amnt=23.34 
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =361,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,361,22.67,single,0,1)
+ order =361 
+ order_restaurant =1
+ 
+ I am in single.. 
+ 2. I am in single.. 
+ tbl_cust_sess_id=451 order_restaurant=1-- orders=Array ord_pmnt_order= 361, ord_amnt=22.67, ord_pmnt_bill_amnt=22.67 
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =362,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(159,362,17.26,individual,0,1)
+ order =362 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =363,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,363,4.73,single,0,1)
+ order =363 
+ order_restaurant =1
+ 
+ I am in single.. 
+ 2. I am in single.. 
+ tbl_cust_sess_id=454 order_restaurant=1-- orders=Array ord_pmnt_order= 363, ord_amnt=4.73, ord_pmnt_bill_amnt=4.73 
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =364,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,364,4.73,individual,0,1)
+ order =364 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =367,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,367,25.54,single,0,1)
+ order =367 
+ order_restaurant =1
+ 
+ I am in single.. 
+ 2. I am in single.. 
+ tbl_cust_sess_id=456 order_restaurant=1-- orders=Array ord_pmnt_order= 365,366,367, ord_amnt=25.54, ord_pmnt_bill_amnt=25.54 
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =368,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,368,4.50,single,0,1)
+ order =368 
+ order_restaurant =1
+ 
+ I am in single.. 
+ 2. I am in single.. 
+ tbl_cust_sess_id=459 order_restaurant=1-- orders=Array ord_pmnt_order= 368, ord_amnt=4.5, ord_pmnt_bill_amnt=4.5 
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =370,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,370,8.44,individual,0,1)
+ order =370 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =373,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,373,3.94,individual,0,1)
+ order =373 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =374,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,374,4.50,single,0,1)
+ order =374 
+ order_restaurant =1
+ 
+ I am in single.. 
+ 2. I am in single.. 
+ tbl_cust_sess_id=471 order_restaurant=1-- orders=Array ord_pmnt_order= 374, ord_amnt=4.5, ord_pmnt_bill_amnt=4.5 
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =200,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(27,200,40.14,individual,0,1)
+ order =200 
+ order_restaurant =3
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =202,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,202,11.53,individual,0,1)
+ order =202 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =203,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,203,9.00,individual,0,1)
+ order =203 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =205,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,205,3.09,individual,0,1)
+ order =205 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =204,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,204,12.38,individual,0,1)
+ order =204 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =206,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,206,16.65,individual,0,1)
+ order =206 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =207,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,207,11.53,individual,0,1)
+ order =207 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =208,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,208,16.59,individual,0,1)
+ order =208 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =210,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,210,22.50,individual,0,1)
+ order =210 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =211,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,211,11.70,individual,0,1)
+ order =211 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =212,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,212,8.33,individual,0,1)
+ order =212 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =213,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,213,10.91,individual,0,1)
+ order =213 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =214,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,214,49.16,individual,0,1)
+ order =214 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =215,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,215,12.49,individual,0,1)
+ order =215 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =216,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,216,39.38,individual,0,1)
+ order =216 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =217,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,217,8.33,individual,0,1)
+ order =217 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =218,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,218,11.25,individual,0,1)
+ order =218 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =219,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,219,3.38,individual,0,1)
+ order =219 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =220,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,220,11.25,INDIVIDUAL,0,1)
+ order =220 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =224,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,224,9.00,individual,0,1)
+ order =224 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =226,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,226,11.25,individual,0,1)
+ order =226 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =227,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,227,4.16,individual,0,1)
+ order =227 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =229,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,229,8.33,individual,0,1)
+ order =229 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =230,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,230,3.38,INDIVIDUAL,0,1)
+ order =230 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =232,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,232,3.38,individual,0,1)
+ order =232 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =233,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,233,13.50,individual,0,1)
+ order =233 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =234,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,234,17.10,individual,0,1)
+ order =234 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =235,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,235,6.75,individual,0,1)
+ order =235 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =236,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,236,4.16,individual,0,1)
+ order =236 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =237,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,237,8.33,individual,0,1)
+ order =237 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =238,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,238,12.49,individual,0,1)
+ order =238 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =239,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,239,1,,0,0)
+ order =239 
+ order_restaurant =1
+ 
+ in else.. 
+ 3.tbl_cust_sess_id=199 order_restaurant=1-- orders=Array ord_pmnt_order= 239, ord_amnt=9.79, ord_pmnt_bill_amnt= 
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =239,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,239,0,,0,0)
+ order =239 
+ order_restaurant =1
+ 
+ in else.. 
+ 3.tbl_cust_sess_id=199 order_restaurant=1-- orders=Array ord_pmnt_order= 239, ord_amnt=9.79, ord_pmnt_bill_amnt= 
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =239,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,239,0,,0,0)
+ order =239 
+ order_restaurant =1
+ 
+ in else.. 
+ 3.tbl_cust_sess_id=199 order_restaurant=1-- orders=Array ord_pmnt_order= 239, ord_amnt=9.79, ord_pmnt_bill_amnt= 
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =240,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,240,1,,0,0)
+ order =240 
+ order_restaurant =1
+ 
+ in else.. 
+ 3.tbl_cust_sess_id=200 order_restaurant=1-- orders=Array ord_pmnt_order= 240, ord_amnt=5.34, ord_pmnt_bill_amnt= 
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =241,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,241,8.33,individual,0,1)
+ order =241 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =242,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,242,1,INDIVIDUAL,0,0)
+ order =242 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =243,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,243,1,INDIVIDUAL,0,0)
+ order =243 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =245,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,245,1,INDIVIDUAL,0,0)
+ order =245 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =244,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,244,1,INDIVIDUAL,0,0)
+ order =244 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =246,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,246,1,INDIVIDUAL,0,0)
+ order =246 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =247,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,247,1,INDIVIDUAL,0,0)
+ order =247 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =248,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,248,4.16,individual,0,1)
+ order =248 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =251,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,251,1,INDIVIDUAL,0,0)
+ order =251 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =252,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,252,1,INDIVIDUAL,0,0)
+ order =252 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =249,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,249,1,INDIVIDUAL,0,0)
+ order =249 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =250,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,250,1,INDIVIDUAL,0,0)
+ order =250 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =257,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,257,1,INDIVIDUAL,0,0)
+ order =257 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =256,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,256,1,INDIVIDUAL,0,0)
+ order =256 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =258,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,258,1,INDIVIDUAL,0,0)
+ order =258 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =259,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,259,1,INDIVIDUAL,0,0)
+ order =259 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =260,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,260,1,INDIVIDUAL,0,0)
+ order =260 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =261,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,261,1,INDIVIDUAL,0,0)
+ order =261 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =262,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,262,1,INDIVIDUAL,0,0)
+ order =262 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =263,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,263,1,INDIVIDUAL,0,0)
+ order =263 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =264,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,264,1,INDIVIDUAL,0,0)
+ order =264 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =265,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,265,1,INDIVIDUAL,0,0)
+ order =265 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =266,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,266,1,INDIVIDUAL,0,0)
+ order =266 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =264,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(3,264,253.13,individual,0,1)
+ order =264 
+ order_restaurant =1
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =264,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(5062,264,112.50,individual,0,1)
+ order =264 
+ order_restaurant =28
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =264,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(5062,264,112.50,individual,0,1)
+ order =264 
+ order_restaurant =28
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =265,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(5062,265,225.00,individual,0,1)
+ order =265 
+ order_restaurant =28
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =266,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(5061,266,1,INDIVIDUAL,0,0)
+ order =266 
+ order_restaurant =28
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =267,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(5062,267,1,INDIVIDUAL,0,0)
+ order =267 
+ order_restaurant =28
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =268,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(5062,268,281.25,INDIVIDUAL,0,0)
+ order =268 
+ order_restaurant =28
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =269,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(5062,269,1,INDIVIDUAL,0,0)
+ order =269 
+ order_restaurant =28
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =271,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(5062,271,1,INDIVIDUAL,0,0)
+ order =271 
+ order_restaurant =28
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =274,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(5062,274,157.5,INDIVIDUAL,0,0)
+ order =274 
+ order_restaurant =28
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =275,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(5062,275,135,INDIVIDUAL,0,0)
+ order =275 
+ order_restaurant =28
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =276,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(5062,276,1,INDIVIDUAL,0,0)
+ order =276 
+ order_restaurant =28
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =277,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(5062,277,1,INDIVIDUAL,0,0)
+ order =277 
+ order_restaurant =28
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =278,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(5062,278,1,INDIVIDUAL,0,0)
+ order =278 
+ order_restaurant =28
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =283,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(5062,283,1,INDIVIDUAL,0,0)
+ order =283 
+ order_restaurant =28
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
+ i am in invoice =287,......
+ Paypal response (created_by,order_id,order_amt_i_pay,payment_choice,order_payment_id,ord_pmnt_split_amng) =(5062,287,1,INDIVIDUAL,0,0)
+ order =287 
+ order_restaurant =28
+ 
+ Transaction Is Sucessfull......<div class="info">Payment sucessfull</div>
