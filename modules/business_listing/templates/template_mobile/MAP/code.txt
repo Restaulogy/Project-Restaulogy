@@ -1,0 +1,15 @@
+<!--
+<tr>
+<td align="center">
+    {if $search_zip != ""}
+            <b>Map</b>
+            <iframe src="mapdata.php?address={$search_zip}" scrolling="auto" frameborder="0" allowtransparency="true" id="googlesitemap" name="googlesitemap"  width="100%" height="600"></iframe>
+    {else }
+            {if $result_found>0}
+            <b>Map</b>
+             <iframe src="mapdata.php" scrolling="auto" frameborder="0" allowtransparency="true" id="googlesitemap" name="googlesitemap" width="100%"  height="600"></iframe>
+            {/if}
+    {/if}
+</td>
+</tr>
+-->

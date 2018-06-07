@@ -1,0 +1,44 @@
+Respected Sir/Madam,
+
+
+
+Following are the links for some of the basic's of elgg
+
+
+1]Getting Started With Development
+
+http://docs.elgg.org/wiki/Getting_Started_With_Development
+
+
+2] Elgg Engine
+
+
+http://docs.elgg.org/wiki/Engine
+
+3]Core topics 
+
+   basically we are dealing with following core topics
+  
+a]Entities 
+  
+  http://docs.elgg.org/wiki/Engine/DataModel/Entities
+
+b]Metadata 
+  http://docs.elgg.org/wiki/Engine/DataModel/Metadata
+
+c]Access controls 
+
+  http://docs.elgg.org/wiki/Access_Controls
+
+d]Database schema  
+
+  http://docs.elgg.org/wiki/DatabaseSchema
+
+
+4]we are aslo using the Engine/PageOwnership for user login info.
+
+  http://docs.elgg.org/wiki/Engine/PageOwnership
+
+
+Thanking You,
+Mahesh

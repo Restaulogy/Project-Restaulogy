@@ -1,0 +1,103 @@
+body, td {color:#000; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; margin:8px;}
+body {background:#FFF;}
+body.mceForceColors {background:#FFF; color:#000;}
+h1 {font-size: 2em}
+h2 {font-size: 1.5em}
+h3 {font-size: 1.17em}
+h4 {font-size: 1em}
+h5 {font-size: .83em}
+h6 {font-size: .75em}
+.mceItemTable, .mceItemTable td, .mceItemTable th, .mceItemTable caption, .mceItemVisualAid {border: 1px dashed #BBB !important;}
+a.mceItemAnchor {width:12px !important; line-height:6px !important; overflow:hidden !important; padding-left:12px !important; background:url(img/items.gif) no-repeat bottom left !important;}
+img.mceItemAnchor {width:12px !important; height:12px !important; background:url(img/items.gif) no-repeat !important;}
+img {border:0 !important;}
+table {cursor:default !important;}
+table td, table th {cursor:text !important;}
+ins {border-bottom:1px solid green !important; text-decoration: none !important; color:green !important;}
+del {color:red !important; text-decoration:line-through !important;}
+cite {border-bottom:1px dashed blue !important;}
+acronym {border-bottom:1px dotted #CCC !important; cursor:help !important;}
+
+/* IE */
+* html body {
+scrollbar-3dlight-color:#F0F0EE !important;
+scrollbar-arrow-color:#676662 !important;
+scrollbar-base-color:#F0F0EE !important;
+scrollbar-darkshadow-color:#DDD !important;
+scrollbar-face-color:#E0E0DD !important;
+scrollbar-highlight-color:#F0F0EE !important;
+scrollbar-shadow-color:#F0F0EE !important;
+scrollbar-track-color:#F5F5F5 !important;
+}
+
+
+/* This file contains the CSS data for the editable area(iframe) of TinyMCE */
+
+.aligncenter,
+dl.aligncenter {
+	display: block !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+.alignleft {
+	float: left !important;
+}
+
+.alignright {
+	float: right !important;
+}
+
+body.mceContentBody {
+	background: #fff !important;
+	color: #000 !important;
+	font: 13px/19px "Lucida Grande","Lucida Sans Unicode",Tahoma,Verdana,sans-serif !important;
+	padding: 0.6em !important;
+	margin: 0 !important;
+}
+
+body.mceForceColors {
+	background:#fff !important;
+	color:#000 !important;
+}
+
+h1 {font-size: 2em !important;}
+h2 {font-size: 1.5em !important;}
+h3 {font-size: 1.17em !important;}
+h4 {font-size: 1em !important;}
+h5 {font-size: .83em !important;}
+h6 {font-size: .75em !important;}
+
+.mceItemTable, .mceItemTable td, .mceItemTable th, .mceItemTable caption, .mceItemVisualAid {
+	border: 1px dashed #BBB !important;
+}
+
+img {
+	border:0 !important;
+}
+
+td {
+	font-size: 10px !important;
+}
+
+pre {
+	font: 12px/18px "Courier New", monospace !important;
+}
+
+img.mceItemAnchor {
+	width: 12px !important;
+	height: 12px !important;
+	background: url(img/items.gif) no-repeat !important;
+}
+
+a.mceItemAnchor {
+	width: 12px !important;
+	line-height: 6px !important;
+	overflow: hidden !important;
+	padding-left: 12px !important;
+	background: url(img/items.gif) no-repeat bottom left !important;
+}
+
+.mceIEcenter {
+	text-align: center !important;
+}

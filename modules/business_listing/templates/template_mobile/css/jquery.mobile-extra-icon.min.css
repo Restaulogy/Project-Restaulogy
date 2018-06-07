@@ -1,0 +1,376 @@
+
+  /* body { background: black; }*/
+	 /* add-item */ 
+	.ui-icon-add-item { 
+		background: url('extra_icons2/add-item.png') no-repeat transparent;
+	} 
+
+	 /* addressbook */ 
+	.ui-icon-addressbook { 
+		background: url('extra_icons2/addressbook.png') no-repeat transparent;
+	} 
+
+     /* briefcase */
+	.ui-icon-briefcase {
+		background: url('extra_icons2/briefcase.png') no-repeat transparent;
+	}
+
+	 /* apple */ 
+	.ui-icon-apple { 
+		background: url('extra_icons2/apple.png') no-repeat transparent;
+	} 
+
+	 /* arrow-round */ 
+	.ui-icon-arrow-round { 
+		background: url('extra_icons2/arrow-round.png') no-repeat transparent;
+	} 
+
+	 /* badge */ 
+	.ui-icon-badge { 
+		background: url('extra_icons2/badge.png') no-repeat transparent;
+	} 
+
+	 /* bar-chart */ 
+	.ui-icon-bar-chart { 
+		background: url('extra_icons2/bar-chart.png') no-repeat transparent;
+	} 
+
+	 /* bird */ 
+	.ui-icon-bird { 
+		background: url('extra_icons2/bird.png') no-repeat transparent;
+	} 
+
+	 /* boat */ 
+	.ui-icon-boat { 
+		background: url('extra_icons2/boat.png') no-repeat transparent;
+	} 
+
+	 /* bookmark. */ 
+	.ui-icon-bookmark { 
+		background: url('extra_icons2/bookmark.png') no-repeat transparent;
+	} 
+
+	 /* calculator */ 
+	.ui-icon-calculator { 
+		background: url('extra_icons2/calculator.png') no-repeat transparent;
+	} 
+
+	 /* calendar */ 
+	.ui-icon-calendar { 
+		background: url('extra_icons2/calendar.png') no-repeat transparent;
+	} 
+
+	 /* chat */ 
+	.ui-icon-chat { 
+		background: url('extra_icons2/chat.png') no-repeat transparent;
+	} 
+
+	 /* computer copy */ 
+	.ui-icon-computer copy { 
+		background: url('extra_icons2/computer copy.png') no-repeat transparent;
+	} 
+
+	 /* configuration */ 
+	.ui-icon-configuration { 
+		background: url('extra_icons2/configuration.png') no-repeat transparent;
+	} 
+
+	 /* connected */ 
+	.ui-icon-connected { 
+		background: url('extra_icons2/connected.png') no-repeat transparent;
+	} 
+
+	 /* connections */ 
+	.ui-icon-connections { 
+		background: url('extra_icons2/connections.png') no-repeat transparent;
+	} 
+
+	 /* container */ 
+	.ui-icon-container { 
+		background: url('extra_icons2/container.png') no-repeat transparent;
+	} 
+
+	 /* copy-item */ 
+	.ui-icon-copy-item { 
+		background: url('extra_icons2/copy-item.png') no-repeat transparent;
+	} 
+
+	 /* database */ 
+	.ui-icon-database { 
+		background: url('extra_icons2/database.png') no-repeat transparent;
+	} 
+
+	 /* delete-item */ 
+	.ui-icon-delete-item { 
+		background: url('extra_icons2/delete-item.png') no-repeat transparent;
+	} 
+
+	 /* dollar */ 
+	.ui-icon-dollar { 
+		background: url('extra_icons2/dollar.png') no-repeat transparent;
+	} 
+
+	 /* download */ 
+	.ui-icon-download { 
+		background: url('extra_icons2/download.png') no-repeat transparent;
+	} 
+
+	 /* edit */ 
+	.ui-icon-edit { 
+		background: url('extra_icons2/edit.png') no-repeat transparent;
+	} 
+
+	 /* email */ 
+	.ui-icon-email { 
+		background: url('extra_icons2/email.png') no-repeat transparent;
+	} 
+
+	 /* female-user */ 
+	.ui-icon-female-user { 
+		background: url('extra_icons2/female-user.png') no-repeat transparent;
+	} 
+
+	 /* flag */ 
+	.ui-icon-flag { 
+		background: url('extra_icons2/flag.png') no-repeat transparent;
+	} 
+
+	 /* full-screen */ 
+	.ui-icon-full-screen { 
+		background: url('extra_icons2/full-screen.png') no-repeat transparent;
+	} 
+
+	 /* globe */ 
+	.ui-icon-globe { 
+		background: url('extra_icons2/globe.png') no-repeat transparent;
+	} 
+
+	 /* group */ 
+	.ui-icon-group { 
+		background: url('extra_icons2/group.png') no-repeat transparent;
+	} 
+
+	 /* heart */ 
+	.ui-icon-heart { 
+		background: url('extra_icons2/heart.png') no-repeat transparent;
+	} 
+
+	 /* home */ 
+	.ui-icon-home { 
+		background: url('extra_icons2/home.png') no-repeat transparent;
+	} 
+
+	 /* light */ 
+	.ui-icon-light { 
+		background: url('extra_icons2/light.png') no-repeat transparent;
+	} 
+
+	 /* line-globe */ 
+	.ui-icon-line-globe { 
+		background: url('extra_icons2/line-globe.png') no-repeat transparent;
+	} 
+
+	 /* lock */ 
+	.ui-icon-lock { 
+		background: url('extra_icons2/lock.png') no-repeat transparent;
+	} 
+
+	 /* lookup */ 
+	.ui-icon-lookup { 
+		background: url('extra_icons2/lookup.png') no-repeat transparent;
+	} 
+
+	 /* male-user */ 
+	.ui-icon-male-user { 
+		background: url('extra_icons2/male-user.png') no-repeat transparent;
+	} 
+
+	 /* mobile */ 
+	.ui-icon-mobile { 
+		background: url('extra_icons2/mobile.png') no-repeat transparent;
+	} 
+
+	 /* mobile2 */ 
+	.ui-icon-mobile2 { 
+		background: url('extra_icons2/mobile2.png') no-repeat transparent;
+	} 
+
+	 /* mouse */ 
+	.ui-icon-mouse { 
+		background: url('extra_icons2/mouse.png') no-repeat transparent;
+	} 
+
+	 /* music-node */ 
+	.ui-icon-music-node { 
+		background: url('extra_icons2/music-node.png') no-repeat transparent;
+	} 
+
+	 /* network */ 
+	.ui-icon-network { 
+		background: url('extra_icons2/network.png') no-repeat transparent;
+	} 
+
+	 /* next-item */ 
+	.ui-icon-next-item { 
+		background: url('extra_icons2/next-item.png') no-repeat transparent;
+	} 
+
+	 /* notification */ 
+	.ui-icon-notification { 
+		background: url('extra_icons2/notification.png') no-repeat transparent;
+	} 
+
+	 /* phone */ 
+	.ui-icon-phone { 
+		background: url('extra_icons2/phone.png') no-repeat transparent;
+	} 
+
+	 /* pie-chart */ 
+	.ui-icon-pie-chart { 
+		background: url('extra_icons2/pie-chart.png') no-repeat transparent;
+	} 
+
+	 /* pin */ 
+	.ui-icon-pin { 
+		background: url('extra_icons2/pin.png') no-repeat transparent;
+	} 
+
+	 /* plane */ 
+	.ui-icon-plane { 
+		background: url('extra_icons2/plane.png') no-repeat transparent;
+	} 
+
+	 /* print */ 
+	.ui-icon-print { 
+		background: url('extra_icons2/print.png') no-repeat transparent;
+	} 
+
+	 /* processing-02 */ 
+	.ui-icon-processing-02 { 
+		background: url('extra_icons2/processing-02.png') no-repeat transparent;
+	} 
+
+	 /* processing */ 
+	.ui-icon-processing { 
+		background: url('extra_icons2/processing.png') no-repeat transparent;
+	} 
+
+	 /* profile */ 
+	.ui-icon-profile { 
+		background: url('extra_icons2/profile.png') no-repeat transparent;
+	} 
+
+	 /* push-pin */ 
+	.ui-icon-push-pin { 
+		background: url('extra_icons2/push-pin.png') no-repeat transparent;
+	} 
+
+	 /* recycle-empty */ 
+	.ui-icon-recycle-empty { 
+		background: url('extra_icons2/recycle-empty.png') no-repeat transparent;
+	} 
+
+	 /* recycle-full */ 
+	.ui-icon-recycle-full { 
+		background: url('extra_icons2/recycle-full.png') no-repeat transparent;
+	} 
+
+	 /* reload */ 
+	.ui-icon-reload { 
+		background: url('extra_icons2/reload.png') no-repeat transparent;
+	} 
+
+	 /* rss */ 
+	.ui-icon-rss { 
+		background: url('extra_icons2/rss.png') no-repeat transparent;
+	} 
+
+	 /* satellite */ 
+	.ui-icon-satellite { 
+		background: url('extra_icons2/satellite.png') no-repeat transparent;
+	} 
+
+	 /* save */ 
+	.ui-icon-save { 
+		background: url('extra_icons2/save.png') no-repeat transparent;
+	} 
+
+	 /* scissors */ 
+	.ui-icon-scissors { 
+		background: url('extra_icons2/scissors.png') no-repeat transparent;
+	} 
+
+	 /* screen */ 
+	.ui-icon-screen { 
+		background: url('extra_icons2/screen.png') no-repeat transparent;
+	} 
+
+	 /* search */ 
+	.ui-icon-search { 
+		background: url('extra_icons2/search.png') no-repeat transparent;
+	} 
+
+	 /* server */ 
+	.ui-icon-server { 
+		background: url('extra_icons2/server.png') no-repeat transparent;
+	} 
+
+	 /* setting */ 
+	.ui-icon-setting { 
+		background: url('extra_icons2/setting.png') no-repeat transparent;
+	} 
+
+	 /* shield */ 
+	.ui-icon-shield { 
+		background: url('extra_icons2/shield.png') no-repeat transparent;
+	} 
+
+	 /* shut-down */ 
+	.ui-icon-shut-down { 
+		background: url('extra_icons2/shut-down.png') no-repeat transparent;
+	} 
+
+	 /* star */ 
+	.ui-icon-star { 
+		background: url('extra_icons2/star.png') no-repeat transparent;
+	} 
+
+	 /* tag */ 
+	.ui-icon-tag { 
+		background: url('extra_icons2/tag.png') no-repeat transparent;
+	} 
+
+	 /* tree */ 
+	.ui-icon-tree { 
+		background: url('extra_icons2/tree.png') no-repeat transparent;
+	} 
+
+	 /* unlock */ 
+	.ui-icon-unlock { 
+		background: url('extra_icons2/unlock.png') no-repeat transparent;
+	} 
+
+	 /* usb */ 
+	.ui-icon-usb { 
+		background: url('extra_icons2/usb.png') no-repeat transparent;
+	} 
+
+	 /* user */ 
+	.ui-icon-user { 
+		background: url('extra_icons2/user.png') no-repeat transparent;
+	} 
+
+	 /* van */ 
+	.ui-icon-van { 
+		background: url('extra_icons2/van.png') no-repeat transparent;
+	} 
+
+	 /* wifi */ 
+	.ui-icon-wifi { 
+		background: url('extra_icons2/wifi.png') no-repeat transparent;
+	} 
+
+	 /* world */ 
+	.ui-icon-world { 
+		background: url('extra_icons2/world.png') no-repeat transparent;
+	} 

@@ -1,0 +1,249 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>phpDirectorySource Documentation - New Installation</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center"><font color=0066CC size="5">php</font><font color=FFCC00 size="5">Directory</font><font color=0066CC size="5">Source</font><font size="5"> Ver
+    1.1 Documentation</font></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="index.htm">Index</a></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><strong>1) We are performing a new installation, please ensure that...</strong></td>
+  </tr>
+  <tr>
+    <td align="center"><table width="80%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>A mysql database has been created to hold the phpDirectorySource
+          tables. If you do not know how to create a mysql database, please refer
+          to your server/host documentation.</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td><strong>2) Modify the configs/config.php file (this is the config.php file located
+      in the configs folder)</strong></td>
+  </tr>
+  <tr>
+    <td align="center"><table width="80%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>In the mysql Database Connection section...</td>
+      </tr>
+      <tr>
+        <td align="center"><table width="80%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>Change the connection
+              settings for your mysql table. If you do not know these settings,
+              please refer to your server/host documentation.</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>If you wish, you may change the  table names. This is
+              only necessary should the default names conflict with tables already
+              in the database.</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td>In the Main Configuration section</td>
+      </tr>
+      <tr>
+        <td align="center"><table width="80%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>Set the absolute path to your document root. The
+              variable $_SERVER['DOCUMENT_ROOT'] plus the folder the directory
+              is located in, if any, should work in most instances. If this does
+              not work, you can refer to your host/server documentation to get
+              this setting.</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>Set the main location URL. This is the full web address to the
+              directory.</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>Set the admin e-mail account. This is the email address that
+              all corespondence to the administrator of the site will be sent.</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>If you are going to accept payments through paypal, set your
+              paypal account e-mail address. This is the address paypal has on
+              file for your account, so that you can properly be credited with
+              payments.</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>The other configuration settings are not needed for installation
+              and can be changed after installation. A detailed description of
+              these setting can be found in the <a href="config.htm" target="_blank">Configuration
+              Settings</a> section
+              of this docment.</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td><strong>3) Modify the install_data.php file, add your desired administrative
+      login and password.</strong> The default of admin/admin will be used if you do not
+      change these variables.</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><strong>4) Modify the .htaccess file</strong>... line 'RewriteBase /directory'</td>
+  </tr>
+  <tr>
+    <td align="center"><table width="80%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>Change the '/directory' to reflect the current folder your directory
+          is located in.</td>
+      </tr>
+      <tr>
+        <td>If your directory is in the document root on your server, use 'RewriteBase
+          /'</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><strong>5) Upload all directories and files to your server.</strong> If
+      you are installing to a folder off of you main location, upload to that
+      folder.</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><strong>6) Change the permisions on the following folders to rwxrwxrwx
+        (777).</strong>      You can change the permisions using chmod directly
+        on the server or using your ftp client.</td>
+  </tr>
+  <tr>
+    <td align="center"><table width="80%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>/configs</td>
+      </tr>
+      <tr>
+        <td>/logo</td>
+      </tr>
+      <tr>
+        <td>/template_c</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><strong>7) Run install_data.php by pointing your browser to that file.</strong> This
+      will create and initialize the mysql tables for you. You will see the 'installation
+      complete' notice if the tables installed correctly.</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><strong>8) Run install_lang.php by pointing your browser to that file.</strong> This
+      will add the language definitions for you. You will see the 'Language file
+      updated' notice if installed correctly.</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><strong>9) Remove the install_data.php file from your server.</strong> This
+      is a security requirement, if you leave the file there you run the risk
+      of remote visitors
+      deleting any listing and changes you have made by initializing your table
+      information.</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><strong>10) Remove the install_lang.php file from your server.</strong> This
+      is a security requirement, if you leave the file there you run the risk
+      of remote visitors duplicating information in the language translation
+      table.</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><strong>11) Installation Complete.</strong> If everything installed correctly,
+      you should be able to point your browser to your directory and see the
+      default template.</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center"><font size="2">Copyright <font color=0066CC>php</font></font><font color=FFCC00 size="2">Directory</font><font color=0066CC size="2">Source</font><font size="2"> 2005-2006, All Rights Reserved</font></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,37 @@
+ 
+.extra_info{
+	font-weight:bolder; color:#28166f !important;
+}
+
+ 
+ .job_detail_panal_table{
+	 width:100%; 
+	font-size:12px !important;
+    overflow:hidden !important;
+     
+}
+
+.job_detail_panal_table tr{
+ vertical-align: top !important;
+}
+
+
+.job_detail_panal_table .detail_right_td{
+	width:30%; font-weight: bolder;
+	vertical-align: middle  !important; 
+ 
+   
+}
+
+.job_detail_panal_table .detail_left_td{
+	width:70%;
+   vertical-align: middle !important; 
+}
+ 
+
+.error_td{
+	color:red !important;
+}  
+ 
+ 
+ 

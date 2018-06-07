@@ -1,0 +1,493 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>phpDirectorySource Documentation - Configuration Settings</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center"><font color=0066CC size="5">php</font><font color=FFCC00 size="5">Directory</font><font color=0066CC size="5">Source</font><font size="5"> Ver
+    1.1 Documentation</font></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="index.htm">Index</a></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>Configuration Settings in the configs/config.php file</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>mysql Database Connection section</td>
+  </tr>
+  <tr>
+    <td align="center"><table width="80%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>$db_host - The mysql database host. Normally this is localhost, although
+          any remote host can be specified. You can refer to your server/host
+          documentation for this setting.</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>$db_name - The full name of your mysql database. Some clients append
+          additional characters to your database name when it is being created,
+          you must
+          use this full name.</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>$db_user - The full user name to access your mysql database. Some
+          clients append additional characters to your user name when it
+          is being created,
+          you must
+          use this full name.</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>$db_password - The password assigned to the designated user to access
+          the database.</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>Table Names - These are the names of the mysql tables used by phpDirectorySource
+          to store and retrieve data. The default names provided should work
+          fine, although if you have a conflict in your database where other
+          tables require these same names, you can change these to reflect the
+          correct tables.</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td>Main Configuration section</td>
+  </tr>
+  <tr>
+    <td align="center"><table width="80%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>$config['root'] - The absolute path to the directory. We are using
+          the $_SERVER super global variable to get the path to your document
+          root, which will work in most cases. Should this variable be reporting
+          the wrong path, or it is not being set by your server, you will have
+          to supply the full path here. Refer to your server/host documentation
+          for this setting. This variable includes the trailing slash (/) in
+          the path.</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>$config['mainurl'] - The url to the directories main folder. You
+          should include the full url path, which includes the 'http://'.</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>$config['admin_email'] - The site administrators e-mail address.
+          This is where all correspondence to the site will be sent, and all
+          correspondence from the site will have this return address.</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>$config['admin_name'] - The site administrators name. This is the
+          name that will be displayed on e-mail correspondence from the site.</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>$config['paypal_email'] - The paypal account e-mail address. This
+          is the paypal account where all payments will be credited. Refer to
+          paypals documentation for setting up a merchant account on thier site.
+          If this is left blank the paypal payment system will not be active.</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>$config['paypal_currency'] - The default currency designator for
+          payments accepted through paypal. Members can pay in different currencies
+          and they will be converted to your currency. Refer to the paypal documentation
+          regarding currency types.</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>$config['deftpl'] - The default template. This template will be used
+          when no other has been chosen by the user of the site. If a user selects
+          a different template, a cookie will be placed on thier computer and
+          display thier chosen template each time they return.</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>$config['add_any_cat'] - Add listings to any category if set to true.
+          If set to false then members will only be able to add listings in terminating
+          categories (final categories without children).</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>$config['show_admin'] - Show link to admin area on the sites menu,
+          if set to true, otherwise the link will not be shown and you can access
+          the admin area by pointing your browser to the admin.php file.</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>$config['cat_sel_w'] - The width of the category selection boxes
+          used during registration and listing updates.</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>$config['cat_col'] - The number of category selection boxes to display
+          in each row, new rows will be created as necessary to display all children
+          of selected categories.</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>$config['cats_page'] - The number of category titles to display,
+          per page, on the index. New pages will be created to display all categories
+          available for browsing.</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>$config['lists_page'] - The number of listings to display, per page,
+          on the index. New pages will be created to display
+          all available listings for browsing.</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>$config['users_page'] - The number of user records to display, per
+          page, in the admin user editor. New pages will be created to display
+          all available users for editing.</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>$config['search_page'] - The number of listings to display, per page,
+          in the search results. New pages will be created to display all listings
+          that match the search criterea.</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>$config['auto_approve'] - Automatically approves listings when
+          submitted, if set to true, otherwise the administrator will have to
+          approve each
+          listing before it appears in the directory.</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>$config['auto_update'] - Automatically approves listings when updated
+          by the member, if set to true, otherwise the administrator will have
+          to approve each updated listing before it will re-appear in the directory.</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>$config['free_level'] - The membership level ID that is considered
+          the free level. Any listing that expires without being renewed will
+          be set to this membership level. By default a free membership level
+          is created when phpDirectorySource is installed, and this level is
+          used. You can change this as needed to reflect the correct membership
+          level to downgrade listings to.</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>$config['logo_w'] - Maximum listings logo width. When a logo is uploaded
+          by a member that exceeds this width, it will be resized (maintaining
+          proportions) to this width. If the GD library is not installed on your
+          server, this setting has no effect.</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>$config['logo_h'] - Maximum listings logo height. When a logo is
+          uploaded by a member that exceeds this height, it will be resized (maintaining
+          proportions) to this height. If the GD library is not installed on
+          your server, this setting has no effect.</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>$config['bg_light'] - The light background color when sub listings
+          (list of listings) are displayed.</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>$config['bg_dark'] - The dark background color when sub listings
+          (list of listings) are displayed.</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>$config['web_target'] - The target option when a listings website
+          link is clicked. Set 'target = _self' to display the members website
+          in the same window or 'target = _blank' to display in a new window.</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>$config['admin_chg_pw'] - Allow the admin to change users passwords,
+          if set to true, otherwise only users can change thier password.</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>$config['disable_empty_cat'] - Disable categories without listings,
+          making them not selectable, if set to true, otherwise any category
+           can be followed to the terminating category.</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>$config['rewrite'] - Rewrite page url's using mod-rewrite, if set
+          to true, otherwise pages will be displayed as they are actually written.
+          Mod-rewrite, available on apache servers, allows pages to be displayed
+          in a search engine friendly manner.</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>$config['map_site'] - The mapping site to be used for listing directions.
+          Currently google and mapquest are supported.</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>$allow_tags - html tags to allow in user submitted information. By
+          default, no html tags are allowed and will be stripped out of any user
+          input. If you should want to allow any, include them in the array statement,
+          quoted and seperated by commas (ex. array('&lt;strong&gt;', '&lt;font&gt;') will
+          allow strong and font tags).</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>$allow_attr - html attributes to allow in user submitted information.
+          By default, no html attributes are allowed and will be stripped out
+          of any user input. If you shouls want to allow any, include then in
+          the array statement, quoted and sperated by commas (ex. array('bgcolor',
+          'size') will allow the attributes for background color and size in
+          a font tag should font tags be allowed).</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td>Enable / Setup Locations section</td>
+  </tr>
+  <tr>
+    <td align="center"><table width="80%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>$config['use_loc_sel'] - Use location selects, if set to true, otherwise
+          related location selections will not be used. See the <a href="location_selects.htm">Location
+          Selects</a> section for more information.</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>$config['prim_loc_level'] - The level code of the primary (first)
+          location in the location selects. This value can be found in the language
+          panel, location level section. The default of '1' indicates that the
+          primary location is a Country, you may change this to properly reflect
+          your location select values. See the <a href="location_selects.htm">Location
+          Selects</a> section for more information.</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>$config['use_zip_limit'] - Limit search results by zipcode, if set
+          to true, otherwise the radius search feature will not be used. You
+          must have a zip code database, with lats and lons, imported for this
+          feature to work.</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>$config['convert_kilometer'] - Convert radius search to kilometers,
+          if set to true, otherwise the radius search uses miles.</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td>Enable Listing Fields section - Any listing field set to true will be
+      used by the directory system</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>Enable Membership Custom Fields section - Any custom membership field
+      set to true will be used by the directory system.</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>Require Listing Fields section - Any listing field set to true will require
+      the user to supply data.</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>Email notifications section</td>
+  </tr>
+  <tr>
+    <td align="center"><table width="80%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>$notify['admin_user'] - Notify the administrator when a new user
+          registration is submitted, if set to true.</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>$notify['admin_list'] - Notify the administrator when a new listing
+          is submitted, if set to true.</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>$notify['user_submit'] - Send e-mail notification to members when
+          a listing has been submitted on thier account.</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>$notify['user_approved'] - Send e-mail notification to members when
+          a submitted listing has been approved and is now available in the directory.</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>$notify['user_downgrade'] - Send e-mail notification to members when
+          the cron job automatically downgrades a listing after the expiration
+          period has passed.</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>Smarty Template Setup section - Normally you would not need to change
+      any of these settings</td>
+  </tr>
+  <tr>
+    <td align="center"><table width="80%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>Smarty location in define statement... define('SMARTY_DIR', $config[root].'smarty/libs/')
+          tells the directory where to find the smarty library. If you have smarty
+          already installed on your server, you can change this to reflect the
+          absolute path to smarty. This is usefull if you want multiple installation
+          of phpDirectorySource and only one installation of smarty. Note that
+          phpDirectorySource uses a couple of plug-in smarty modules (smarty.paginate
+          and html.table.adv) that will have to be installed in the smarty library
+          you use.</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>Smarty directories in the smarty_PDS class... tells smarty what directories
+          to use for templates, compiled templates, configuration and caching.
+          You should have no need to change these settings.</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center"><font size="2">Copyright <font color=0066CC>php</font></font><font color=FFCC00 size="2">Directory</font><font color=0066CC size="2">Source</font><font size="2"> 2005-2006,
+    All Rights Reserved</font></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>

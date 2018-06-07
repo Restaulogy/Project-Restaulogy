@@ -1,0 +1,700 @@
+original===========
+
+ 
+<html>
+<head>
+<title>Very Helvetica</title>
+     
+
+
+<style type="text/css">
+body{
+  background: #161616 !important;
+  color: #767572 !important;
+  font-family:Helvetica, Arial, sans-serif !important;
+}
+a:link {
+	color: #61c7dd;text-decoration:none;
+}
+a:hover {
+	color: #59b8cc; text-decoration:none;
+}
+
+td {
+  vertical-align:top !important;
+}
+
+#tbl_container{
+   width:100% !important;
+}
+
+#tbl_content{
+    font: 14px ; line-height:125%;
+    text-align:left;width:600px;
+}
+
+#tbl_header{
+      width:600px; height:204px;
+}
+
+#tbl_header .header_note{
+  font-size: 11px;padding-top: 15px;
+  color: #808080;
+}
+
+#tbl_header .header_title {
+    width:100%;height: 125px;
+}
+
+#tbl_header .header_note_arrow{
+  height: 56px; background:url('http://192.168.100.2/elgg/templates/_templates/helvetica/images/arrow.gif') right no-repeat;display: block;
+}
+
+#tbl_header .header_title{
+	width:504px; height:125px;
+}
+#tbl_header #tbl_header_title h2{
+    padding-top:10px;   font-size: 30px; font-weight: bold;
+    text-align:left;  line-height:32px;
+    color: #f9f8f2;
+}
+
+#tbl_header .header_title p {
+     font-size: 18px; font-weight: normal;
+	color: #949494;
+}
+
+#tbl_header .header_title #tbl_header_title p b{
+
+	color: #7EC01E;
+}
+
+
+#tbl_header .header_title_icon{
+	display:block;width:96px; height:125px; vertical-align:top;
+	background: transparent url('http://192.168.100.2/elgg/templates/_templates/helvetica/images/badge-whats-new.gif')  no-repeat;
+}
+
+
+
+#top_seperator{
+    background-image: url('http://192.168.100.2/elgg/templates/_templates/helvetica/images/header_top_separator.gif'); background-repeat: no-repeat; height: 7px;display: block;
+}
+
+#top_border{
+    height: 16px; background-image: url('http://192.168.100.2/elgg/templates/_templates/helvetica/images/header_border.gif'); background-repeat: no-repeat;dislay:block;
+}
+
+
+#tbl_middle{
+	padding-top: 10px; text-align:left;width:600px;
+}
+
+#tbl_middle .middle_border_seperator{
+    height:25px;width:599px;display:block;border-top:#666 ridge 1px;
+}
+
+#tbl_middle th{
+    font-size: 24px; font-weight: bold;  text-align:left;
+    color:#f9f8f2;
+}
+
+#seperator{
+   height: 30px;
+}
+
+#tbl_footer{
+  padding-top: 10px; text-align:left;width:600px;
+}
+
+
+#email {
+  width:100%;
+}
+#email th{
+    font-size: 17px; font-weight: bold;   color:#f9f8f2;
+    text-align:left; padding:0px; margin:0px;
+}
+
+#email td{
+   font-size: 12px;
+}
+
+</style>
+</head>
+<body>
+
+<table id="tbl_container">
+    <tr>
+        <td valign="top">
+        <center>
+        <table id="tbl_header">
+    <tr>
+        <td colspan="2">
+            <center><a href="http://192.168.100.2/elgg/"><img src="http://192.168.100.2/elgg/mod/custom_white_theme/graphics/biz_logo.png" style="border:none;"/></a></center>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" id="top_border"></td>
+    </tr>
+    <tr>
+        <td class="header_note">
+            
+		</td>
+    	<td class="header_note_arrow"></td>
+    </tr>
+    <tr>
+    	<td colspan="2" id="top_seperator"></td>
+    </tr>
+
+    <tr>
+        <td class="header_title">
+            <div id="tbl_header_title">
+    <h2>Shridhar patil</h2>
+    <p>  Deal for <b>Phoenix</b><br> Valid upto <b>22, March</b>
+    </p>
+</div>        </td>
+        <td class="header_title_icon">
+        </td>
+    </tr>
+      <tr>
+        <td colspan="2" id="top_border"></td>
+      </tr>
+</table>        </center>
+         </td>
+    </tr>
+</table>
+<table id="tbl_container">
+    <tr>
+        <td valign="top">
+        <center>
+        <table id="tbl_middle">
+      <tr>
+            <th>
+                Business Information
+            </th>
+      </tr>
+      <tr>
+            <td id="sepertor">&nbsp;</td>
+      </tr>
+      <tr>
+            <td>
+                 <table cellspacing="0" border="0" cellpadding="0" width="100%">
+  <tr>
+    <td valign="top" width="378">
+
+
+
+    <p>
+                    <b>Virtual Office in Phoenix</b>
+                <br/>
+    
+            mahesh<br/>
+                4757 E. Greenway Rd., Ste 107B<br/>
+                Phoenix -
+                Arizona<br>
+                     85011<br/>
+    
+    
+            <a href="mailto:mahesh'@inforeshatech.com">mahesh'@inforeshatech.com</a><br/>
+    
+            <a href=" " target="_blank"> </a><br/>
+    
+            <a href="http://www.google.com/maps?q=4757+E.+Greenway+Rd.,+Ste+107B+Phoenix+85011">Address Link</a><br/>
+	
+
+	 </p>
+    </td>
+    <td valign="top" width="246"><img src="http://192.168.100.2/elgg/mod/business_listing/business_listing/logo/48.jpg" align="right" alt="img8" style="border: solid 1px #FFF; box-shadow: 2px 2px 6px #333; -webkit-box-shadow: 2px 2px 6px #333; -khtml-box-shadow: 2px 2px 6px #333; -moz-box-shadow: 2px 2px 6px #333; float: right;" width="216" /></td>
+  </tr>
+</table>
+            </td>
+      </tr>
+      <tr>
+            <td id="sepertor">&nbsp;</td>
+      </tr>
+</table>
+
+        </center>
+         </td>
+    </tr>
+</table>
+<table id="tbl_container">
+    <tr>
+        <td valign="top">
+        <center>
+        <table id="tbl_middle">
+      <tr>
+            <td id="sepertor">&nbsp;</td>
+      </tr>
+      <tr>
+            <td>
+
+			<img src="http://192.168.100.2/elgg/mod/business_listing/business_listing/promotion_images/219.jpg" width="590"  alt="Shridhar patil"/>
+
+		    </td>
+      </tr>
+      <tr>
+            <td id="sepertor">&nbsp;</td>
+      </tr>
+</table>        </center>
+         </td>
+    </tr>
+</table>
+<table id="tbl_container">
+    <tr>
+        <td valign="top">
+        <center>
+        <table id="tbl_middle">
+      <tr>
+            <th>
+                Description
+            </th>
+      </tr>
+      <tr>
+            <td id="sepertor">&nbsp;</td>
+      </tr>
+      <tr>
+            <td>
+                <p>&nbsp;<span style="color: #666666; font-family: Arial, Helvetica; line-height: normal; text-align: -webkit-left;">Though scientists have determined that the greatest weight loss occurs from wrestling tigers and riding stampeding wildebeests, reports are mixed on the long-term effects of the resulting terror. Slim down without prolonged adrenaline highs with today's Groupon: for $99, you...</span></p>
+            </td>
+      </tr>
+      <tr>
+            <td id="sepertor">&nbsp;</td>
+      </tr>
+</table>        </center>
+         </td>
+    </tr>
+</table>
+<table id="tbl_container">
+    <tr>
+        <td valign="top">
+        <center>
+        <table id="tbl_footer">
+    <tr>
+        <td id="top_border"></td>
+    </tr>
+    <tr>
+        <td>
+            <center>
+                 copyright &copy; 2010-2013 Cupobiz.
+            </center>
+        </td>
+    </tr>
+
+</table>
+            
+<!--
+   <table id="tbl_footer">
+          <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td>
+                            <img src="images/icon_email_friend.gif" width="36" height="37" alt="">
+                        </td>
+                        <td width="16" rowspan="2" valign="top">&nbsp;</td>
+                        <td>
+                           <table id="email">
+  <tr>
+    <th>
+        Email Friend:
+    </td>
+  </tr>
+  <tr>
+    <td>
+        Know someone who might be interested? <br />
+        <forwardtoafriend>Forward it to them</forwardtoafriend>.
+    </td>
+  </tr>
+</table>                        </td>
+                    </tr>
+                 </table>
+            </td>
+            <td>
+                 <table>
+                    <tr>
+                        <td>
+                            <img src="images/icon-footer.gif" width="36" height="37" alt="">
+                        </td>
+                        <td width="16" rowspan="2" valign="top">&nbsp;</td>
+                        <td>
+                          
+                
+<table id="email">
+  <tr>
+    <th>
+        Address:
+    </td>
+  </tr>
+  <tr>
+    <td>
+        ABCWidgets Corp - 123 Some Street, City, ST 99999. ph +1 4 1477 89 745.
+    </td>
+  </tr>
+</table>                        </td>
+                    </tr>
+                 </table>
+
+            </td>
+            </tr>
+          </table>
+-->
+
+        </center>
+         </td>
+    </tr>
+</table>
+</body>
+</html>
+Modified===========
+
+ 
+
+
+
+     
+
+
+<style type="text/css">
+body{
+  background: #161616 !important;
+  color: #767572 !important;
+  font-family:Helvetica, Arial, sans-serif !important;
+}
+a:link {
+	color: #61c7dd;text-decoration:none;
+}
+a:hover {
+	color: #59b8cc; text-decoration:none;
+}
+
+td {
+  vertical-align:top !important;
+}
+
+#tbl_container{
+   width:100% !important;
+}
+
+#tbl_content{
+    font: 14px ; line-height:125%;
+    text-align:left;width:600px;
+}
+
+#tbl_header{
+      width:600px; height:204px;
+}
+
+#tbl_header .header_note{
+  font-size: 11px;padding-top: 15px;
+  color: #808080;
+}
+
+#tbl_header .header_title {
+    width:100%;height: 125px;
+}
+
+#tbl_header .header_note_arrow{
+  height: 56px; background:url('http://192.168.100.2/elgg/templates/_templates/helvetica/images/arrow.gif') right no-repeat;display: block;
+}
+
+#tbl_header .header_title{
+	width:504px; height:125px;
+}
+#tbl_header #tbl_header_title h2{
+    padding-top:10px;   font-size: 30px; font-weight: bold;
+    text-align:left;  line-height:32px;
+    color: #f9f8f2;
+}
+
+#tbl_header .header_title p {
+     font-size: 18px; font-weight: normal;
+	color: #949494;
+}
+
+#tbl_header .header_title #tbl_header_title p b{
+
+	color: #7EC01E;
+}
+
+
+#tbl_header .header_title_icon{
+	display:block;width:96px; height:125px; vertical-align:top;
+	background: transparent url('http://192.168.100.2/elgg/templates/_templates/helvetica/images/badge-whats-new.gif')  no-repeat;
+}
+
+
+
+#top_seperator{
+    background-image: url('http://192.168.100.2/elgg/templates/_templates/helvetica/images/header_top_separator.gif'); background-repeat: no-repeat; height: 7px;display: block;
+}
+
+#top_border{
+    height: 16px; background-image: url('http://192.168.100.2/elgg/templates/_templates/helvetica/images/header_border.gif'); background-repeat: no-repeat;dislay:block;
+}
+
+
+#tbl_middle{
+	padding-top: 10px; text-align:left;width:600px;
+}
+
+#tbl_middle .middle_border_seperator{
+    height:25px;width:599px;display:block;border-top:#666 ridge 1px;
+}
+
+#tbl_middle th{
+    font-size: 24px; font-weight: bold;  text-align:left;
+    color:#f9f8f2;
+}
+
+#seperator{
+   height: 30px;
+}
+
+#tbl_footer{
+  padding-top: 10px; text-align:left;width:600px;
+}
+
+
+#email {
+  width:100%;
+}
+#email th{
+    font-size: 17px; font-weight: bold;   color:#f9f8f2;
+    text-align:left; padding:0px; margin:0px;
+}
+
+#email td{
+   font-size: 12px;
+}
+
+</style>
+
+
+
+<table id="tbl_container">
+    <tr>
+        <td valign="top">
+        <center>
+        <table id="tbl_header">
+    <tr>
+        <td colspan="2">
+            <center><a href="http://192.168.100.2/elgg/"><img src="http://192.168.100.2/elgg/mod/custom_white_theme/graphics/biz_logo.png" style="border:none;"/></a></center>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" id="top_border"></td>
+    </tr>
+    <tr>
+        <td class="header_note">
+            
+		</td>
+    	<td class="header_note_arrow"></td>
+    </tr>
+    <tr>
+    	<td colspan="2" id="top_seperator"></td>
+    </tr>
+
+    <tr>
+        <td class="header_title">
+            <div id="tbl_header_title">
+    <h2>Shridhar patil</h2>
+    <p>  Deal for <b>Phoenix</b><br/> Valid upto <b>22, March</b>
+    </p>
+</div>        </td>
+        <td class="header_title_icon">
+        </td>
+    </tr>
+      <tr>
+        <td colspan="2" id="top_border"></td>
+      </tr>
+</table>        </center>
+         </td>
+    </tr>
+</table>
+<table id="tbl_container">
+    <tr>
+        <td valign="top">
+        <center>
+        <table id="tbl_middle">
+      <tr>
+            <th>
+                Business Information
+            </th>
+      </tr>
+      <tr>
+            <td id="sepertor">&nbsp;</td>
+      </tr>
+      <tr>
+            <td>
+                 <table cellspacing="0" border="0" cellpadding="0" width="100%">
+  <tr>
+    <td valign="top" width="378">
+
+
+
+    <p>
+                    <b>Virtual Office in Phoenix</b>
+                <br/>
+    
+            mahesh<br/>
+                4757 E. Greenway Rd., Ste 107B<br/>
+                Phoenix -
+                Arizona<br/>
+                     85011<br/>
+    
+    
+            <a href="mailto:mahesh'@inforeshatech.com">mahesh'@inforeshatech.com</a><br/>
+    
+            <a href=" " target="_blank"> </a><br/>
+    
+            <a href="http://www.google.com/maps?q=4757+E.+Greenway+Rd.,+Ste+107B+Phoenix+85011">Address Link</a><br/>
+	
+
+	 </p>
+    </td>
+    <td valign="top" width="246"><img src="http://192.168.100.2/elgg/mod/business_listing/business_listing/logo/48.jpg" align="right" alt="img8" style="border: solid 1px #FFF; box-shadow: 2px 2px 6px #333; -webkit-box-shadow: 2px 2px 6px #333; -khtml-box-shadow: 2px 2px 6px #333; -moz-box-shadow: 2px 2px 6px #333; float: right;" width="216" /></td>
+  </tr>
+</table>
+            </td>
+      </tr>
+      <tr>
+            <td id="sepertor">&nbsp;</td>
+      </tr>
+</table>
+
+        </center>
+         </td>
+    </tr>
+</table>
+<table id="tbl_container">
+    <tr>
+        <td valign="top">
+        <center>
+        <table id="tbl_middle">
+      <tr>
+            <td id="sepertor">&nbsp;</td>
+      </tr>
+      <tr>
+            <td>
+
+			<img src="http://192.168.100.2/elgg/mod/business_listing/business_listing/promotion_images/219.jpg" width="590"  alt="Shridhar patil"/>
+
+		    </td>
+      </tr>
+      <tr>
+            <td id="sepertor">&nbsp;</td>
+      </tr>
+</table>        </center>
+         </td>
+    </tr>
+</table>
+<table id="tbl_container">
+    <tr>
+        <td valign="top">
+        <center>
+        <table id="tbl_middle">
+      <tr>
+            <th>
+                Description
+            </th>
+      </tr>
+      <tr>
+            <td id="sepertor">&nbsp;</td>
+      </tr>
+      <tr>
+            <td>
+                <p>&nbsp;<span style="color: #666666; font-family: Arial, Helvetica; line-height: normal; text-align: -webkit-left;">Though scientists have determined that the greatest weight loss occurs from wrestling tigers and riding stampeding wildebeests, reports are mixed on the long-term effects of the resulting terror. Slim down without prolonged adrenaline highs with today's Groupon: for $99, you...</span></p>
+            </td>
+      </tr>
+      <tr>
+            <td id="sepertor">&nbsp;</td>
+      </tr>
+</table>        </center>
+         </td>
+    </tr>
+</table>
+<table id="tbl_container">
+    <tr>
+        <td valign="top">
+        <center>
+        <table id="tbl_footer">
+    <tr>
+        <td id="top_border"></td>
+    </tr>
+    <tr>
+        <td>
+            <center>
+                 copyright &copy; 2010-2013 Cupobiz.
+            </center>
+        </td>
+    </tr>
+
+</table>
+            
+<!--
+   <table id="tbl_footer">
+          <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td>
+                            <img src="images/icon_email_friend.gif" width="36" height="37" alt="">
+                        </td>
+                        <td width="16" rowspan="2" valign="top">&nbsp;</td>
+                        <td>
+                           <table id="email">
+  <tr>
+    <th>
+        Email Friend:
+    </td>
+  </tr>
+  <tr>
+    <td>
+        Know someone who might be interested? <br />
+        <forwardtoafriend>Forward it to them</forwardtoafriend>.
+    </td>
+  </tr>
+</table>                        </td>
+                    </tr>
+                 </table>
+            </td>
+            <td>
+                 <table>
+                    <tr>
+                        <td>
+                            <img src="images/icon-footer.gif" width="36" height="37" alt="">
+                        </td>
+                        <td width="16" rowspan="2" valign="top">&nbsp;</td>
+                        <td>
+                          
+                
+<table id="email">
+  <tr>
+    <th>
+        Address:
+    </td>
+  </tr>
+  <tr>
+    <td>
+        ABCWidgets Corp - 123 Some Street, City, ST 99999. ph +1 4 1477 89 745.
+    </td>
+  </tr>
+</table>                        </td>
+                    </tr>
+                 </table>
+
+            </td>
+            </tr>
+          </table>
+-->
+
+        </center>
+         </td>
+    </tr>
+</table>
+
+
+end===========
+

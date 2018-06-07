@@ -1,0 +1,11 @@
+RewriteEngine On
+RewriteBase /directory
+
+RewriteRule ^Contact_(.+)\.html$ contact.php?act=admin [L]
+RewriteRule ^Mail_(.+)-([0-9]+)\.html$ contact.php?lid=$2 [L]
+RewriteRule ^Refer_(.+)-([0-9]+)\.html$ contact.php?lid=$2&act=refer [L]
+RewriteRule ^page_(.+)\.html$ showpage.php?display=$1 [L]
+RewriteRule ^(.+)-([0-9]+)-([0-9]+)-([0-9]+)\.html$ index.php?cat=$2&nc=$3&nl=$4 [L]
+RewriteRule ^(.+)-([0-9]+)-([0-9]+)\.html$ index.php?cat=$2&nc=$3 [L]
+RewriteRule ^(.+)-([0-9]+)\.html$ show.php?lid=$2 [L]
+AddType text/x-component .htc
