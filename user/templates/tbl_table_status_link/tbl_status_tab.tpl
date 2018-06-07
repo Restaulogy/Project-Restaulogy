@@ -1,0 +1,1 @@
+<div class="navTable_border"><table class="navTable" style="width:250px;">	<tr> 		<th><b>Detail</b></th>         <th><a href="{$website}/user/tbl_alerts.php?search_isLiveOnly=1&with_notification=1&customer_session_id={$smarty.request.customer_session_id}&search_table={$smarty.request.pst_table_id}">Notification</a></th>	</tr></table> </div> 

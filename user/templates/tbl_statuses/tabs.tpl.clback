@@ -1,0 +1,11 @@
+<!-- <link rel="stylesheet" href="{$website}/css/chosen/chosen.css" /> -->
+<div class="navTable_border">
+<table class="navTable" style="width:300px;">
+	<tr>
+		<th class="link" onclick="window.location.href='{$website}/user/tbl_statuses.php?status_event=ORDER'">{$_lang.main.status_menu.order}</th>
+		<th class="link" onclick="window.location.href='{$website}/user/tbl_statuses.php?status_event=REQUEST'">{$_lang.main.status_menu.request}</th>
+		<th class="link" onclick="window.location.href='{$website}/user/tbl_statuses.php?status_event=TABLE'">{$_lang.main.status_menu.table}</th>
+		<th { class="link" onclick="window.location.href='{$website}/user/tbl_statuses.php?status_event=PROMOTION'">{$_lang.main.status_menu.promotion}</th>
+	</tr>
+</table>
+</div>

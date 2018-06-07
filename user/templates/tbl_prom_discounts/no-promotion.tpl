@@ -1,0 +1,1 @@
+{include file="header.tpl"} <div class="wrapper"><h1>{$_lang.tbl_prom_discounts.title}</h1> {include file="tbl_prom_discounts/prom_cond_disc_tab.tpl"} <div class="error">You need to create promotion first to create discount.</div>   </div> {include file="footer.tpl"}
