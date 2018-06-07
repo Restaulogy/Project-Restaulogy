@@ -1,0 +1,443 @@
+
+  /* body { background: black; }*/
+	 /* add-item */ 
+	.ui-icon-green-add-item { 
+		background: url('jqm_extra_icon/green/add-item.png') no-repeat transparent;
+	} 
+
+	 /* addressbook */ 
+	.ui-icon-green-addressbook { 
+		background: url('jqm_extra_icon/green/addressbook.png') no-repeat transparent;
+	} 
+	
+	 /* disc */ 
+	.ui-icon-green-disc { 
+		background: url('jqm_extra_icon/green/disc.png') no-repeat transparent;
+	} 
+
+
+     /* briefcase */
+	.ui-icon-green-briefcase {
+		background: url('jqm_extra_icon/green/briefcase.png') no-repeat transparent;
+	}
+
+	 /* apple */ 
+	.ui-icon-green-apple { 
+		background: url('jqm_extra_icon/green/apple.png') no-repeat transparent;
+	} 
+
+	 /* arrow-round */ 
+	.ui-icon-green-arrow-round { 
+		background: url('jqm_extra_icon/green/arrow-round.png') no-repeat transparent;
+	} 
+
+	 /* badge */ 
+	.ui-icon-green-badge { 
+		background: url('jqm_extra_icon/green/badge.png') no-repeat transparent;
+	} 
+
+	 /* bar-chart */ 
+	.ui-icon-green-bar-chart { 
+		background: url('jqm_extra_icon/green/bar-chart.png') no-repeat transparent;
+	} 
+
+	 /* bird */ 
+	.ui-icon-green-bird { 
+		background: url('jqm_extra_icon/green/bird.png') no-repeat transparent;
+	} 
+
+	 /* boat */ 
+	.ui-icon-green-boat { 
+		background: url('jqm_extra_icon/green/boat.png') no-repeat transparent;
+	} 
+
+	 /* bookmark. */ 
+	.ui-icon-green-bookmark { 
+		background: url('jqm_extra_icon/green/bookmark.png') no-repeat transparent;
+	} 
+
+	 /* calculator */ 
+	.ui-icon-green-calculator { 
+		background: url('jqm_extra_icon/green/calculator.png') no-repeat transparent;
+	} 
+
+	 /* calendar */ 
+	.ui-icon-green-calendar { 
+		background: url('jqm_extra_icon/green/calendar.png') no-repeat transparent;
+	} 
+
+	 /* chat */ 
+	.ui-icon-green-chat { 
+		background: url('jqm_extra_icon/green/chat.png') no-repeat transparent;
+	} 
+
+	 /* computer copy */ 
+	.ui-icon-green-computer copy { 
+		background: url('jqm_extra_icon/green/computer copy.png') no-repeat transparent;
+	} 
+
+	 /* configuration */ 
+	.ui-icon-green-configuration { 
+		background: url('jqm_extra_icon/green/configuration.png') no-repeat transparent;
+	} 
+
+	 /* connected */ 
+	.ui-icon-green-connected { 
+		background: url('jqm_extra_icon/green/connected.png') no-repeat transparent;
+	} 
+
+	 /* connections */ 
+	.ui-icon-green-connections { 
+		background: url('jqm_extra_icon/green/connections.png') no-repeat transparent;
+	} 
+
+	 /* container */ 
+	.ui-icon-green-container { 
+		background: url('jqm_extra_icon/green/container.png') no-repeat transparent;
+	} 
+
+	 /* copy-item */ 
+	.ui-icon-green-copy-item { 
+		background: url('jqm_extra_icon/green/copy-item.png') no-repeat transparent;
+	} 
+
+	 /* database */ 
+	.ui-icon-green-database { 
+		background: url('jqm_extra_icon/green/database.png') no-repeat transparent;
+	} 
+
+	 /* delete-item */ 
+	.ui-icon-green-delete-item { 
+		background: url('jqm_extra_icon/green/delete-item.png') no-repeat transparent;
+	} 
+
+	 /* dollar */ 
+	.ui-icon-green-dollar { 
+		background: url('jqm_extra_icon/green/dollar.png') no-repeat transparent;
+	} 
+
+	 /* download */ 
+	.ui-icon-green-download { 
+		background: url('jqm_extra_icon/green/download.png') no-repeat transparent;
+	} 
+
+	 /* edit */ 
+	.ui-icon-green-edit { 
+		background: url('jqm_extra_icon/green/edit.png') no-repeat transparent;
+	} 
+
+	 /* email */ 
+	.ui-icon-green-email { 
+		background: url('jqm_extra_icon/green/email.png') no-repeat transparent;
+	} 
+
+	 /* female-user */ 
+	.ui-icon-green-female-user { 
+		background: url('jqm_extra_icon/green/female-user.png') no-repeat transparent;
+	} 
+
+	 /* flag */ 
+	.ui-icon-green-flag { 
+		background: url('jqm_extra_icon/green/flag.png') no-repeat transparent;
+	} 
+
+	 /* full-screen */ 
+	.ui-icon-green-full-screen { 
+		background: url('jqm_extra_icon/green/full-screen.png') no-repeat transparent;
+	} 
+
+	 /* globe */ 
+	.ui-icon-green-globe { 
+		background: url('jqm_extra_icon/green/globe.png') no-repeat transparent;
+	} 
+
+	 /* group */ 
+	.ui-icon-green-group { 
+		background: url('jqm_extra_icon/green/group.png') no-repeat transparent;
+	} 
+
+	 /* heart */ 
+	.ui-icon-green-heart { 
+		background: url('jqm_extra_icon/green/heart.png') no-repeat transparent;
+	} 
+
+	 /* home */ 
+	.ui-icon-green-home { 
+		background: url('jqm_extra_icon/green/home.png') no-repeat transparent;
+	} 
+
+	 /* light */ 
+	.ui-icon-green-light { 
+		background: url('jqm_extra_icon/green/light.png') no-repeat transparent;
+	} 
+
+	 /* line-globe */ 
+	.ui-icon-green-line-globe { 
+		background: url('jqm_extra_icon/green/line-globe.png') no-repeat transparent;
+	} 
+
+	 /* lock */ 
+	.ui-icon-green-lock { 
+		background: url('jqm_extra_icon/green/lock.png') no-repeat transparent;
+	} 
+
+	 /* lookup */ 
+	.ui-icon-green-lookup { 
+		background: url('jqm_extra_icon/green/lookup.png') no-repeat transparent;
+	} 
+
+	 /* male-user */ 
+	.ui-icon-green-male-user { 
+		background: url('jqm_extra_icon/green/male-user.png') no-repeat transparent;
+	} 
+
+	 /* mobile */ 
+	.ui-icon-green-mobile { 
+		background: url('jqm_extra_icon/green/mobile.png') no-repeat transparent;
+	} 
+
+	 /* mobile2 */ 
+	.ui-icon-green-mobile2 { 
+		background: url('jqm_extra_icon/green/mobile2.png') no-repeat transparent;
+	} 
+
+	 /* mouse */ 
+	.ui-icon-green-mouse { 
+		background: url('jqm_extra_icon/green/mouse.png') no-repeat transparent;
+	} 
+
+	 /* music-node */ 
+	.ui-icon-green-music-node { 
+		background: url('jqm_extra_icon/green/music-node.png') no-repeat transparent;
+	} 
+
+	 /* network */ 
+	.ui-icon-green-network { 
+		background: url('jqm_extra_icon/green/network.png') no-repeat transparent;
+	} 
+
+	 /* next-item */ 
+	.ui-icon-green-next-item { 
+		background: url('jqm_extra_icon/green/next-item.png') no-repeat transparent;
+	} 
+
+	 /* notification */ 
+	.ui-icon-green-notification { 
+		background: url('jqm_extra_icon/green/notification.png') no-repeat transparent;
+	} 
+
+	 /* phone */ 
+	.ui-icon-green-phone { 
+		background: url('jqm_extra_icon/green/phone.png') no-repeat transparent;
+	} 
+
+	 /* pie-chart */ 
+	.ui-icon-green-pie-chart { 
+		background: url('jqm_extra_icon/green/pie-chart.png') no-repeat transparent;
+	} 
+
+	 /* pin */ 
+	.ui-icon-green-pin { 
+		background: url('jqm_extra_icon/green/pin.png') no-repeat transparent;
+	} 
+
+	 /* plane */ 
+	.ui-icon-green-plane { 
+		background: url('jqm_extra_icon/green/plane.png') no-repeat transparent;
+	} 
+
+	 /* print */ 
+	.ui-icon-green-print { 
+		background: url('jqm_extra_icon/green/print.png') no-repeat transparent;
+	} 
+
+	 /* processing-02 */ 
+	.ui-icon-green-processing-02 { 
+		background: url('jqm_extra_icon/green/processing-02.png') no-repeat transparent;
+	} 
+
+	 /* processing */ 
+	.ui-icon-green-processing { 
+		background: url('jqm_extra_icon/green/processing.png') no-repeat transparent;
+	} 
+
+	 /* profile */ 
+	.ui-icon-green-profile { 
+		background: url('jqm_extra_icon/green/profile.png') no-repeat transparent;
+	} 
+
+	 /* push-pin */ 
+	.ui-icon-green-push-pin { 
+		background: url('jqm_extra_icon/green/push-pin.png') no-repeat transparent;
+	} 
+
+	 /* recycle-empty */ 
+	.ui-icon-green-recycle-empty { 
+		background: url('jqm_extra_icon/green/recycle-empty.png') no-repeat transparent;
+	} 
+
+	 /* recycle-full */ 
+	.ui-icon-green-recycle-full { 
+		background: url('jqm_extra_icon/green/recycle-full.png') no-repeat transparent;
+	} 
+
+	 /* reload */ 
+	.ui-icon-green-reload { 
+		background: url('jqm_extra_icon/green/reload.png') no-repeat transparent;
+	} 
+
+	 /* rss */ 
+	.ui-icon-green-rss { 
+		background: url('jqm_extra_icon/green/rss.png') no-repeat transparent;
+	} 
+
+	 /* satellite */ 
+	.ui-icon-green-satellite { 
+		background: url('jqm_extra_icon/green/satellite.png') no-repeat transparent;
+	} 
+
+	 /* save */ 
+	.ui-icon-green-save { 
+		background: url('jqm_extra_icon/green/save.png') no-repeat transparent;
+	} 
+
+	 /* scissors */ 
+	.ui-icon-green-scissors { 
+		background: url('jqm_extra_icon/green/scissors.png') no-repeat transparent;
+	} 
+
+	 /* screen */ 
+	.ui-icon-green-screen { 
+		background: url('jqm_extra_icon/green/screen.png') no-repeat transparent;
+	} 
+
+	 /* search */ 
+	.ui-icon-green-search { 
+		background: url('jqm_extra_icon/green/search.png') no-repeat transparent;
+	} 
+
+	 /* server */ 
+	.ui-icon-green-server { 
+		background: url('jqm_extra_icon/green/server.png') no-repeat transparent;
+	} 
+
+	 /* setting */ 
+	.ui-icon-green-setting { 
+		background: url('jqm_extra_icon/green/setting.png') no-repeat transparent;
+	} 
+
+	 /* shield */ 
+	.ui-icon-green-shield { 
+		background: url('jqm_extra_icon/green/shield.png') no-repeat transparent;
+	} 
+
+	 /* shut-down */ 
+	.ui-icon-green-shut-down { 
+		background: url('jqm_extra_icon/green/shut-down.png') no-repeat transparent;
+	} 
+
+	 /* star */ 
+	.ui-icon-green-star { 
+		background: url('jqm_extra_icon/green/star.png') no-repeat transparent;
+	} 
+
+	 /* tag */ 
+	.ui-icon-green-tag { 
+		background: url('jqm_extra_icon/green/tag.png') no-repeat transparent;
+	} 
+
+	 /* tree */ 
+	.ui-icon-green-tree { 
+		background: url('jqm_extra_icon/green/tree.png') no-repeat transparent;
+	} 
+
+	 /* unlock */ 
+	.ui-icon-green-unlock { 
+		background: url('jqm_extra_icon/green/unlock.png') no-repeat transparent;
+	} 
+
+	 /* usb */ 
+	.ui-icon-green-usb { 
+		background: url('jqm_extra_icon/green/usb.png') no-repeat transparent;
+	} 
+
+	 /* user */ 
+	.ui-icon-green-user { 
+		background: url('jqm_extra_icon/green/user.png') no-repeat transparent;
+	} 
+
+	 /* van */ 
+	.ui-icon-green-van { 
+		background: url('jqm_extra_icon/green/van.png') no-repeat transparent;
+	} 
+
+	 /* wifi */ 
+	.ui-icon-green-wifi { 
+		background: url('jqm_extra_icon/green/wifi.png') no-repeat transparent;
+	} 
+
+	 /* world */ 
+	.ui-icon-green-world { 
+		background: url('jqm_extra_icon/green/world.png') no-repeat transparent;
+	} 
+	
+	/* smico */
+ 	.ui-icon-green-smico { 
+		background: url('jqm_extra_icon/green/smico.png') no-repeat transparent;  
+	} 
+	
+	/* elipsis */
+ 	.ui-icon-green-elipsis { 
+		background: url('jqm_extra_icon/green/elipsis.png') no-repeat transparent;  
+	} 
+
+	/* elipsis */
+ 	.ui-icon-green-sign-out { 
+		background: url('jqm_extra_icon/green/sign-out.png') no-repeat transparent;  
+	} 
+
+	/* elipsis */
+ 	.ui-icon-green-sign-in { 
+		background: url('jqm_extra_icon/green/sign-in.png') no-repeat transparent;  
+	} 
+	
+	/* remove_save*/
+	.ui-icon-green-remove_save{ 
+		background: url('jqm_extra_icon/green/remove_save.png') no-repeat transparent;  
+	} 
+
+	/* remove_save*/
+	.ui-icon-green-cart{ 
+		background: url('jqm_extra_icon/green/cart.png') no-repeat transparent;  
+	}
+		
+	 
+	/* active*/
+	.ui-icon-green-active{ 
+		background: url('jqm_extra_icon/green/active.png') no-repeat transparent;  
+	}
+	
+	
+	/* inactive*/
+	.ui-icon-green-inactive{ 
+		background: url('jqm_extra_icon/green/inactive.png') no-repeat transparent;  
+	}
+	
+	/* processing.png*/
+	.ui-icon-green-processing { 
+		background: url('jqm_extra_icon/green/processing.png') no-repeat transparent;
+	} 
+	
+	/* glasses*/
+	.ui-icon-green-glasses { 
+		background: url('jqm_extra_icon/green/glasses.png') no-repeat transparent;
+	} 
+	
+		/* glasses*/
+	.ui-icon-green-ID { 
+		background: url('jqm_extra_icon/green/ID.png') no-repeat transparent;
+	} 
+
+
+	
+	 

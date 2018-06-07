@@ -1,0 +1,76 @@
+@import url("swatches.css");
+/* P [Pink ;)]
+-----------------------------------------------------------------------------------------------------------*/
+.ui-bar-p {
+	border: 1px solid #836A50; background: #836A50; color: #F3DEE0; font-weight: bold; text-shadow: 0 1px 1px #836A50;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#977D65), to(#4D3628)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #977D65, #4D3628); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #977D65, #4D3628); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #977D65, #4D3628); /* IE10 */
+	background-image:      -o-linear-gradient(top, #977D65, #4D3628); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #977D65, #4D3628);
+}
+.ui-bar-p .ui-link-inherit .ui-link:hover .ui-link:active .ui-link:visited{ color: 	#D17393; }
+.ui-bar-p .ui-link { color: #D17393; font-weight: bold; }
+.ui-bar-p,
+.ui-bar-p input,
+.ui-bar-p select,
+.ui-bar-p textarea,
+.ui-bar-p button { font-family: Helvetica, Arial, sans-serif; }
+.ui-body-p {
+	border: 1px solid #B3B3B3; color: #333333; text-shadow: 0 1px 0 #fff; background: #F8EAEA;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#F7E4E3), to(#EBD4DB)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #F7E4E3, #EBD4DB); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #F7E4E3, #EBD4DB); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #F7E4E3, #EBD4DB); /* IE10 */
+	background-image:      -o-linear-gradient(top, #F7E4E3, #EBD4DB); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #F7E4E3, #EBD4DB);
+}
+.ui-body-p,
+.ui-body-p input,
+.ui-body-p select,
+.ui-body-p textarea,
+.ui-body-p button { font-family: Helvetica, Arial, sans-serif; }
+.ui-body-p .ui-link-inherit .ui-link:hover .ui-link:active .ui-link:visited{ color: #D17393; }
+.ui-body-p .ui-link { color: #D17393; font-weight: bold; }
+.ui-btn-up-p {
+	border: 1px solid #303030; background: #4D3628; font-weight: bold; color: #4D3628; text-shadow: 0 1px 1px #AB947F;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#AB947F), to(#977D65)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #AB947F, #977D65 ); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #AB947F, #977D65); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #AB947F, #977D65); /* IE10 */
+	background-image:      -o-linear-gradient(top, #AB947F, #977D65); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #AB947F, #977D65);
+}
+.ui-btn-up-p a.ui-link-inherit { color: #2F3E46; }
+.ui-btn-hover-p {
+	border: 1px solid #303030; background: #977D65; font-weight: bold; color: #4D3628; text-shadow: 0 1px 1px #AB947F;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#977D65), to(#AB947F)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #977D65, #AB947F); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #977D65, #AB947F); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #977D65, #AB947F); /* IE10 */
+	background-image:      -o-linear-gradient(top, #977D65, #AB947F); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #977D65, #AB947F);
+}
+.ui-btn-hover-p a.ui-link-inherit { color: #2F3E46; }
+.ui-btn-down-p {
+	border: 1px solid #303030; background: #fdfdfd; font-weight: bold; color: #4D3628; text-shadow: 0 1px 1px #AB947F;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#F5DEE4), to(#FFCBDB)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #F5DEE4, #FFCBDB); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #F5DEE4, #FFCBDB); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #F5DEE4, #FFCBDB); /* IE10 */
+	background-image:      -o-linear-gradient(top, #F5DEE4, #FFCBDB); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #F5DEE4, #FFCBDB);
+}
+.ui-btn-down-p a.ui-link-inherit { color: #2F3E46; }
+.ui-btn-up-p,
+.ui-btn-hover-p,
+.ui-btn-down-p { font-family: Helvetica, Arial, sans-serif; text-decoration: none; }
+
+/* Additional Theme changes
+-----------------------------------------------------------------------------------------------------------*/
+/* "Flower" ajax loader */
+.ui-icon-loading {
+	background-image: url(images/ajax-loader.gif); width: 40px; height: 40px;
+	-moz-border-radius: 20px; -webkit-border-radius: 20px; border-radius: 20px; background-size: 35px 35px;
+}

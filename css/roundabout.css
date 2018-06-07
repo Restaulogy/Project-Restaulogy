@@ -1,0 +1,83 @@
+.roundabout-holder {
+	padding: 0;
+	margin: 0 auto;
+	height: 200px;
+	width: 95%;
+}
+
+.roundabout-moveable-item {
+	height: 200px;
+	width: 80%;
+	cursor: pointer;
+	border:1px solid black;
+	display:block;
+}
+
+.roundabout-moveable-item img {
+	height: 100%;
+	width: 100%;
+}
+
+.roundabout-in-focus { 
+	cursor: pointer;
+}
+
+#carousel-descriptions {
+	list-style:none;
+	display:block;
+	width:98%;
+	margin:2px 1%;
+	padding:0;
+}
+
+#carousel-descriptions li { 
+	border:1px dotted #999;
+	margin-top:5px;
+	font-size:11px;  
+	font-weight:bold;
+	text-align:center;
+	display:none;
+	
+}
+
+#carousel-descriptions li.current { 
+	height:40px;
+	display:block;
+}
+
+#carousel-controls {
+	 width:100%; 
+	margin:2px;
+	overflow:auto;
+	border-collapse:collapse;
+	text-align:center;
+}
+
+ 
+
+#carousel-controls span {
+	width:10% auto;
+	display:inline-block; 
+	text-align:center;
+	margin: 1px; 
+	cursor:pointer;	color:#fff; 
+	background:#333;			
+}
+/*
+#carousel-controls td span {
+	font-size:14px;
+	text-align:center;
+	margin:0 5px;
+	padding:5px;
+	cursor:pointer;
+	border:1px solid black;
+	background:#333;
+}*/
+
+#carousel-controls .current { 
+	border:4px solid orange; 
+  -webkit-box-shadow:inset 4px 4px 8px orange;
+	-moz-box-shadow:inset 4px 4px 8px orange;
+	/*box-shadow:1px 1px 2px orange;*/
+	box-shadow:inset 4px 4px 8px orange;
+}

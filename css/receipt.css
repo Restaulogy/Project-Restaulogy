@@ -1,0 +1,18 @@
+table.print_receipt{
+		width:99%;
+ 		border:1px solid #111;
+ 		margin-bottom:5px;
+ 		background:#fff;
+}
+
+table.print_receipt td{
+   font-family: Arial !important;
+   font-size: 11px !important;
+}
+table.print_receipt th{
+   font-family: Arial !important;
+   font-size: 12px !important;
+   font-weight:bold;
+   border-top: 1px dotted #000;
+   border-bottom: 1px dotted #000;
+}

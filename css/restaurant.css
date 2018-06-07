@@ -1,0 +1,600 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('fonts/bebasneue-webfont.eot');
+    src: url('fonts/bebasneue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/bebasneue-webfont.woff') format('woff'),
+         url('fonts/bebasneue-webfont.ttf') format('truetype'),
+         url('fonts/bebasneue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'AutumnRegular';
+    src: url('fonts/autumn__-webfont.eot');
+    src: url('fonts/autumn__-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/autumn__-webfont.woff') format('woff'),
+         url('fonts/autumn__-webfont.ttf') format('truetype'),
+         url('fonts/autumn__-webfont.svg#AutumnRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+/****************************************************/
+/*=RESET AND CLEARFIX*/
+/****************************************************/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	font-family:Arial, Helvetica, sans-serif;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+strong {
+	font-weight:bold;
+	}
+em {
+	font-style:italic;
+	}
+figure img {
+	display:block;
+	}
+/* CLEARFIX */
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+
+/****************************************************/
+/*=GENERAL*/
+/****************************************************/
+
+.fleft {float:left;}
+.fright {float:right;}
+.alleft {text-align:left;}
+.alcenter {text-align:center;}
+.alright {text-align:right;}
+
+a {color:#9a1611;}
+
+.wrapper {
+	position:relative;
+	padding:25px 20px;
+	}
+	
+.separator {
+	position:relative;
+	background:url(images/batik.jpg) no-repeat center center;
+	font-size:0.875em;
+	font-family: 'BebasNeueRegular';
+	text-align:right;
+	border-top:1px solid #fff;
+	border-bottom:1px solid #fff;
+	-moz-box-shadow:0 1px 0 #9a1611;
+	-webkit-box-shadow:0 1px 0 #9a1611;
+	box-shadow:0 1px 0 #9a1611;
+	padding:5px 15px;
+	color:#fff;
+	-webkit-text-shadow:1px 1px 1px #333;
+	-moz-text-shadow:1px 1px 1px #333;
+	text-shadow:1px 1px 1px #333;
+	}
+
+
+#container {
+	position:relative;
+	margin:0 auto;
+	width:320px;
+	background:url(images/background.jpg) repeat-y;
+	padding-top:30px;
+	overflow:hidden;
+	color:#342011;
+	}
+header {
+	position:relative;
+	background:url(images/batik.jpg) no-repeat center center;
+	height:60px;
+	border-top:1px solid #fff;
+	border-bottom:1px solid #fff;
+	-moz-box-shadow:0 0 1px #9a1611;
+	-webkit-box-shadow:0 0 1px #9a1611;
+	box-shadow:0 0 1px #9a1611;
+	color:#fff;
+	}
+#logo {
+	display:block;
+	position:absolute;
+	left:5px;
+	top:-15px;
+	font-family: 'AutumnRegular';
+	font-size:24px;
+	color:#fff;
+	text-decoration:none;
+	text-transform:uppercase;
+	-webkit-text-shadow:1px 1px 1px #000;
+	-moz-text-shadow:1px 1px 1px #000;
+	text-shadow:1px 1px 1px #000;
+	background:url(images/logo.png) no-repeat;
+	height:32px;
+	padding:35px 15px 35px 125px;
+	}
+footer {
+	font-family: 'BebasNeueRegular';
+	font-size:14px;
+	text-align:center;
+	color:#fbf9d7;
+	background:url(images/batik_dark.jpg) no-repeat bottom center;
+	border-top:1px solid #fff;
+	-webkit-text-shadow:1px 1px 1px #333;
+	-moz-text-shadow:1px 1px 1px #333;
+	text-shadow:1px 1px 1px #333;
+	padding:10px 15px;
+	height:17px;
+	overflow:hidden;
+	}
+#open-write {
+	background:url(images/open-menu.png) no-repeat top right;
+	width:83px;
+	height:70px;
+	text-indent:-9999px;
+	margin-right:20px;
+	float:right;
+	}
+
+#main-menu {
+	position:absolute;
+	width:320px;
+	bottom:37px;
+	}
+#main-menu ul li a {
+	background:url(images/batik.jpg) center center;
+	display:block;
+	padding:10px 20px;
+	color:#fbf9d7;
+	border-bottom:1px solid #fff;
+	font-family: 'AutumnRegular';
+	font-size:18px;
+	text-decoration:none;
+	text-align:center;
+	text-transform:uppercase;
+	-webkit-text-shadow:1px 1px 1px #333;
+	-moz-text-shadow:1px 1px 1px #333;
+	text-shadow:1px 1px 1px #333;
+	}
+#main-menu ul li a:hover {
+	color:#fff;
+	}
+#menuPick {
+	cursor:pointer;
+	background:url(images/footer-strip.png) no-repeat;
+	width:320px;
+	height:52px;
+	text-indent:-9999px;
+	}
+h1, h2, h3 {
+	font-family: 'AutumnRegular';
+	text-transform:uppercase;
+	color:#9a1611;
+	border-bottom:1px solid #9a1611;
+	margin-bottom:15px;
+	padding-bottom:5px;
+	-webkit-text-shadow:1px 1px 1px #FBF9D7;
+	-moz-text-shadow:1px 1px 1px #FBF9D7;
+	text-shadow:1px 1px 1px #FBF9D7;
+	}
+h1 {
+	font-size:1.5em;
+	}
+h2 {
+	font-size:1.25em;
+	padding-bottom:3px;
+	}
+h3 {
+	font-size:1em;
+	}
+article .description {
+	font-family: 'AutumnRegular';
+	font-size:1.125em;
+	line-height:1.125em;
+	color:#342011;
+	-webkit-text-shadow:1px 1px 1px #FBF9D7;
+	-moz-text-shadow:1px 1px 1px #FBF9D7;
+	text-shadow:1px 1px 1px #FBF9D7;
+	font-weight:normal;
+	margin-bottom:10px;
+	}
+article .description p {
+	font-family: 'AutumnRegular';
+	}
+article .description p:last-child {
+	margin-bottom:0;
+	}
+
+/****************************************************/
+/*=HOMPEAGE*/
+/****************************************************/
+#home-gal-wall .col {
+	width:138px;
+	color:#fff;
+	-webkit-text-shadow:1px 1px 1px #333;
+	-moz-text-shadow:1px 1px 1px #333;
+	text-shadow:1px 1px 1px #333;
+	}
+#home-gal-wall .box {
+	-webkit-box-shadow:1px 1px 2px #333;
+	-moz-box-shadow:1px 1px 2px #333;
+	box-shadow:1px 1px 2px #333;
+	margin-bottom:4px;
+	}
+#home-gal-wall figure img {
+	border:1px solid #fff;
+	max-width:136px;
+	}
+#home-gal-wall figcaption {
+	font-family: 'BebasNeueRegular';
+	font-size:16px;
+	padding:5px 10px;
+	background:url(images/batik.jpg) no-repeat center center;
+	}
+	
+/****************************************************/
+/*=ABOUT US*/
+/****************************************************/
+#our-members figure {
+	width:95px;
+	-webkit-box-shadow:2px 2px 3px #333;
+	-moz-box-shadow:2px 2px 3px #333;
+	box-shadow:2px 2px 3px #333;
+	}
+#our-members .text {
+	width:165px;
+	color:#342011;
+	font-family: 'BebasNeueRegular';
+	font-size:16px;
+	-webkit-text-shadow:1px 1px 1px #FBF9D7;
+	-moz-text-shadow:1px 1px 1px #FBF9D7;
+	text-shadow:1px 1px 1px #FBF9D7;
+	}
+	
+/****************************************************/
+/*=MENU PRICES*/
+/****************************************************/
+.menu-links {
+	margin-bottom:20px;
+	}
+.menu-links li {
+	width:138px;
+	float:left;
+	margin-bottom:3px;
+	}
+.menu-links li:nth-child(2n-1){
+	margin-right:3px;
+	}
+.menu-links li a {
+	display:block;
+	color:#fff;
+	text-decoration:none;
+	font-family: 'AutumnRegular';
+	font-size:16px;
+	padding:15px 10px;
+	text-align:center;
+	text-transform:uppercase;
+	background:url(images/batik.jpg) no-repeat center center;
+	-webkit-text-shadow:1px 1px 1px #000;
+	-moz-text-shadow:1px 1px 1px #000;
+	text-shadow:1px 1px 1px #000;
+	border:1px solid #fff;
+	-webkit-box-shadow:1px 1px 2px #333;
+	-moz-box-shadow:1px 1px 2px #333;
+	box-shadow:1px 1px 2px #333;
+	}
+
+
+.menu-block .menu-item {
+	margin-bottom:5px;
+	}
+.menu-block .title {
+	text-transform:uppercase;
+	text-align:center;
+	font-family: 'AutumnRegular';
+	font-size:16px;
+	-webkit-text-shadow:1px 1px 1px #FBF9D7;
+	-moz-text-shadow:1px 1px 1px #FBF9D7;
+	text-shadow:1px 1px 1px #FBF9D7;
+}
+.menu-block .red {
+	font-family: 'AutumnRegular';
+	color:#9A1611;
+	}
+article.menu-block .description {
+	font-family: 'BebasNeueRegular';
+	text-align:center;
+	font-size:16px;
+	}
+.menu-block h2 span {
+	font-family: 'AutumnRegular';
+	float:left;
+	}
+.menu-block h2 a {
+	font-family: 'AutumnRegular';
+	font-size:12px;
+	float:right;
+	padding-top:5px;
+	text-decoration:none;
+	position:relative;
+	z-index:1;
+	}
+.menu-block figure {
+	-webkit-box-shadow:2px 2px 3px #333;
+	-moz-box-shadow:2px 2px 3px #333;
+	box-shadow:2px 2px 3px #333;
+	margin-bottom:20px;
+	}
+.menu-block figure img {
+	border:1px solid #fff;
+	}
+
+/****************************************************/
+/*=MAP CONTACTS*/
+/****************************************************/
+.page-map-contacts iframe {
+	border:1px solid #fff;
+	-webkit-box-shadow:2px 2px 3px #333;
+	-moz-box-shadow:2px 2px 3px #333;
+	box-shadow:2px 2px 3px #333;
+	margin-bottom:10px;
+	}
+.street {
+	text-transform:uppercase;
+	text-align:right;
+	font-family: 'AutumnRegular';
+	font-size:14px;
+	-webkit-text-shadow:1px 1px 1px #FBF9D7;
+	-moz-text-shadow:1px 1px 1px #FBF9D7;
+	text-shadow:1px 1px 1px #FBF9D7;
+}
+.street .red {
+	font-family: 'AutumnRegular';
+	color:#9A1611;
+	}
+#contact-block .field-row {
+	background:url(images/contacts-sprite.png) no-repeat;
+	padding-left:25px;
+	font-family: 'BebasNeueRegular';
+	-webkit-text-shadow:1px 1px 1px #FBF9D7;
+	-moz-text-shadow:1px 1px 1px #FBF9D7;
+	text-shadow:1px 1px 1px #FBF9D7;
+	}
+#contact-block .field-row span {
+	font-family: 'AutumnRegular';
+	}
+#contact-block .field-mob {
+	background-position:0 -21px;
+	}
+#contact-block .field-ema {
+	background-position:0 -44px;
+	}
+#social-block .social-icons li {
+	float:left;
+	margin-right:5px;
+	}
+#social-block .social-icons a {
+	background:url(images/social-sprites.png) no-repeat;
+	display:block;
+	float:left;
+	width:41px;
+	height:41px;
+	text-indent:-9999px;
+	}
+#social-block .social-icons a.tw {background-position:0 0;}
+#social-block .social-icons a.fb {background-position:-41px 0;}
+#social-block .social-icons a.rss {background-position:-82px 0;}
+#social-block .social-icons a.fli {background-position:-123px 0;}
+
+/****************************************************/
+/*=RESERVATION AND FORM*/
+/****************************************************/
+label {
+	font-family: 'AutumnRegular';
+	font-size:16px;
+	text-transform:uppercase;
+	display:block;
+	-webkit-text-shadow:1px 1px 1px #FBF9D7;
+	-moz-text-shadow:1px 1px 1px #FBF9D7;
+	text-shadow:1px 1px 1px #FBF9D7;
+	margin-bottom:5px;
+	}
+input[type=text], input[type=tel], input[type=email], textarea {
+	background:url(images/white-30.png);
+	border:1px solid #a56c32;
+	box-shadow:inset 1px 1px 3px #975929;
+	width:270px;
+	padding:5px 5px;
+	font-family:Arial, Helvetica, sans-serif;
+	}
+input[type=text]:focus, input[type=tel]:focus, input[type=email]:focus, textarea:focus {
+	border:1px solid #fff;
+	}
+textarea {
+	min-height:80px;
+	}
+input[type=submit] {
+	cursor:pointer;
+	display:block;
+	color:#fff;
+	text-decoration:none;
+	font-family: 'AutumnRegular';
+	font-size:14px;
+	padding:5px 20px;
+	text-align:center;
+	text-transform:uppercase;
+	background:url(images/batik.jpg) no-repeat center center;
+	-webkit-text-shadow:1px 1px 1px #000;
+	-moz-text-shadow:1px 1px 1px #000;
+	text-shadow:1px 1px 1px #000;
+	border:1px solid #fff;
+	-webkit-box-shadow:1px 1px 2px #333;
+	-moz-box-shadow:1px 1px 2px #333;
+	box-shadow:1px 1px 2px #333;
+	}
+input[type=submit]:active {
+	position:relative;
+	top:1px;
+	}
+form .field-row {
+	margin-bottom:10px;
+	}
+form .field-copy p {
+	font-family: 'BebasNeueRegular';
+	-webkit-text-shadow:1px 1px 1px #FBF9D7;
+	-moz-text-shadow:1px 1px 1px #FBF9D7;
+	text-shadow:1px 1px 1px #FBF9D7;
+	font-size:14px;
+	}
+	
+/****************************************************/
+/*=NEWS*/
+/****************************************************/
+#news-block {
+	border-bottom:1px solid #9a1611;
+	margin-bottom:15px;
+	}
+#news-block article {
+	margin-bottom:15px;
+	}
+#news-block article:last-child {
+	margin-bottom:0;
+	}
+#news-block article .thumb {
+	float:left;
+	width:95px;
+	border:1px solid #fff;
+	-webkit-box-shadow:1px 1px 2px #333;
+	-moz-box-shadow:1px 1px 2px #333;
+	box-shadow:1px 1px 2px #333;
+	}
+#news-block article .entry {
+	font-family: 'BebasNeueRegular';
+	float:right;
+	width:170px;
+	}
+.entry p {
+	font-size:16px;
+	-webkit-text-shadow:1px 1px 1px #FBF9D7;
+	-moz-text-shadow:1px 1px 1px #FBF9D7;
+	text-shadow:1px 1px 1px #FBF9D7;
+	font-family: 'BebasNeueRegular';
+	margin-bottom:15px;
+	}
+.entry p:last-child {
+	margin-bottom:0;
+	}
+#news-block article h1 {
+	font-size:16px;
+	border:0;
+	margin-bottom:5px;
+	}
+#news-block article h1 a {
+	font-family: 'BebasNeueRegular';
+	font-size:16px;
+	}
+.navigation {
+	margin-bottom:15px;
+	}
+.navigation a {
+	cursor:pointer;
+	display:block;
+	color:#fff;
+	text-decoration:none;
+	font-family: 'AutumnRegular';
+	font-size:14px;
+	padding:5px 20px;
+	text-align:center;
+	text-transform:uppercase;
+	background:url(images/batik.jpg) no-repeat center center;
+	-webkit-text-shadow:1px 1px 1px #000;
+	-moz-text-shadow:1px 1px 1px #000;
+	text-shadow:1px 1px 1px #000;
+	border:1px solid #fff;
+	-webkit-box-shadow:1px 1px 2px #333;
+	-moz-box-shadow:1px 1px 2px #333;
+	box-shadow:1px 1px 2px #333;
+	}
+.navigation a:active {
+	position:relative;
+	top:1px;
+	}
+.navigation .fleft {
+	margin-left:15px;
+	}
+	
+.navigation .fright {
+	margin-right:15px;
+	}
+	
+.post-thumb {
+	-webkit-box-shadow:2px 2px 3px #333;
+	-moz-box-shadow:2px 2px 3px #333;
+	box-shadow:2px 2px 3px #333;
+	margin-bottom:20px;
+	}
+.post-thumb img {
+	border:1px solid #fff;
+	}
+
+#news-post {
+	border-bottom:1px solid #9a1611;
+	margin-bottom:15px;
+	}
+#news-post .entry p {
+	font-size:18px;
+	}
